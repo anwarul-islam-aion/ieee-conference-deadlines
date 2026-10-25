@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
     {
@@ -656,26 +656,6 @@
       "status": "tba"
     },
     {
-      "id": "wiecon-ece-2026",
-      "acronym": "WIECON-ECE 2026",
-      "url": "https://conf.info.bd/",
-      "city": "Dhaka",
-      "country": "Bangladesh",
-      "format": "Not stated",
-      "sources": [
-        "https://conf.info.bd/"
-      ],
-      "verified": "2026-10-15",
-      "name": "IEEE International Women in Engineering (WIE) Conference on Electrical and Computer Engineering",
-      "venue": "Southeast University",
-      "start": "2026-10-23",
-      "end": "2026-10-24",
-      "deadline": "2026-08-01",
-      "deadline_type": "full paper",
-      "notes": "Details from a conference aggregator only; not confirmed on an official site.",
-      "status": "closed"
-    },
-    {
       "id": "iciset-2026",
       "acronym": "ICISET 2026",
       "url": "https://iciset.iiuc.ac.bd/",
@@ -1076,6 +1056,26 @@
       "end": "2026-10-22",
       "deadline": "2026-05-08",
       "deadline_type": "full paper",
+      "status": "past"
+    },
+    {
+      "id": "wiecon-ece-2026",
+      "acronym": "WIECON-ECE 2026",
+      "url": "https://conf.info.bd/",
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "format": "Not stated",
+      "sources": [
+        "https://conf.info.bd/"
+      ],
+      "verified": "2026-10-15",
+      "name": "IEEE International Women in Engineering (WIE) Conference on Electrical and Computer Engineering",
+      "venue": "Southeast University",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "deadline": "2026-08-01",
+      "deadline_type": "full paper",
+      "notes": "Details from a conference aggregator only; not confirmed on an official site.",
       "status": "past"
     }
   ]
