@@ -1,28 +1,7 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
-    {
-      "id": "wcnc-2027",
-      "acronym": "IEEE WCNC 2027",
-      "url": "https://wcnc2027.ieee-wcnc.org/",
-      "city": "Panama City",
-      "country": "Panama",
-      "format": "In person",
-      "sources": [
-        "https://wcnc2027.ieee-wcnc.org/",
-        "https://www.comsoc.org/conferences-events/ieee-wireless-communications-and-networking-conference-2027"
-      ],
-      "verified": "2026-10-16",
-      "name": "IEEE Wireless Communications and Networking Conference",
-      "organizers": "IEEE ComSoc",
-      "start": "2027-04-05",
-      "end": "2027-04-08",
-      "deadline": "2026-10-26",
-      "deadline_type": "full paper",
-      "deadline_note": "Official site lists 26 Oct as the final deadline; ComSoc posts show 15 Sep and 5 Oct.",
-      "status": "open"
-    },
     {
       "id": "icipcn-2027",
       "acronym": "ICIPCN 2027",
@@ -947,6 +926,27 @@
       "deadline": "2026-10-02",
       "deadline_type": "full paper",
       "deadline_note": "Abstracts closed 1 Jul 2026. Reviewed papers returned 9 Nov 2026; final papers due 8 Jan 2027.",
+      "status": "closed"
+    },
+    {
+      "id": "wcnc-2027",
+      "acronym": "IEEE WCNC 2027",
+      "url": "https://wcnc2027.ieee-wcnc.org/",
+      "city": "Panama City",
+      "country": "Panama",
+      "format": "In person",
+      "sources": [
+        "https://wcnc2027.ieee-wcnc.org/",
+        "https://www.comsoc.org/conferences-events/ieee-wireless-communications-and-networking-conference-2027"
+      ],
+      "verified": "2026-10-16",
+      "name": "IEEE Wireless Communications and Networking Conference",
+      "organizers": "IEEE ComSoc",
+      "start": "2027-04-05",
+      "end": "2027-04-08",
+      "deadline": "2026-10-26",
+      "deadline_type": "full paper",
+      "deadline_note": "Official site lists 26 Oct as the final deadline; ComSoc posts show 15 Sep and 5 Oct.",
       "status": "closed"
     },
     {
