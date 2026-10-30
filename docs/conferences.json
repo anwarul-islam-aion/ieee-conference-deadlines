@@ -1,25 +1,7 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
-    {
-      "id": "icipcn-2027",
-      "acronym": "ICIPCN 2027",
-      "url": "https://icipcn.com/2027/",
-      "city": "Dindigul, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://cis.ieee.org/conferences/conference-calendar"
-      ],
-      "verified": "2026-10-15",
-      "independent": true,
-      "start": "2026-12-26",
-      "end": "2026-12-28",
-      "deadline": "2026-10-29",
-      "deadline_type": "full paper",
-      "status": "open"
-    },
     {
       "id": "radarconf-2027",
       "acronym": "RadarConf'27",
@@ -799,6 +781,24 @@
       "deadline": "2026-08-31",
       "deadline_type": "full paper",
       "deadline_note": "Acceptance 2 Nov 2026; camera-ready 16 Nov 2026.",
+      "status": "closed"
+    },
+    {
+      "id": "icipcn-2027",
+      "acronym": "ICIPCN 2027",
+      "url": "https://icipcn.com/2027/",
+      "city": "Dindigul, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-10-15",
+      "independent": true,
+      "start": "2026-12-26",
+      "end": "2026-12-28",
+      "deadline": "2026-10-29",
+      "deadline_type": "full paper",
       "status": "closed"
     },
     {
