@@ -1,31 +1,7 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
-    {
-      "id": "radarconf-2027",
-      "acronym": "RadarConf'27",
-      "url": "https://radarconf2027.org/",
-      "city": "Bengaluru, Karnataka",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://ieee-aess.org/event/conference/2027-ieee-radar-conference",
-        "https://ieee-aess.org/files/ieeeaess/2026-08/radarconf2027_cfp_11aug26-1.pdf",
-        "https://radarconf2027.org/call-for-special-sessions/"
-      ],
-      "verified": "2026-10-15",
-      "name": "2027 IEEE Radar Conference",
-      "organizers": "IEEE AESS",
-      "aess": true,
-      "venue": "Sheraton Grand Bengaluru Whitefield",
-      "start": "2027-05-01",
-      "end": "2027-05-06",
-      "deadline": "2026-10-31",
-      "deadline_type": "full paper",
-      "deadline_note": "Main conference 4–6 May; boot camp 1–2 May; workshops/tutorials 3 May. Camera-ready 15 Feb 2027.",
-      "status": "open"
-    },
     {
       "id": "icaaic-2027",
       "acronym": "ICAAIC 2027",
@@ -972,6 +948,30 @@
       "deadline_type": "abstract",
       "deadline_note": "Full manuscript due 1 Feb 2027 (an ION author page says 3 Feb, hard deadline).",
       "notes": "Presentations must be given in person.",
+      "status": "closed"
+    },
+    {
+      "id": "radarconf-2027",
+      "acronym": "RadarConf'27",
+      "url": "https://radarconf2027.org/",
+      "city": "Bengaluru, Karnataka",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/event/conference/2027-ieee-radar-conference",
+        "https://ieee-aess.org/files/ieeeaess/2026-08/radarconf2027_cfp_11aug26-1.pdf",
+        "https://radarconf2027.org/call-for-special-sessions/"
+      ],
+      "verified": "2026-10-15",
+      "name": "2027 IEEE Radar Conference",
+      "organizers": "IEEE AESS",
+      "aess": true,
+      "venue": "Sheraton Grand Bengaluru Whitefield",
+      "start": "2027-05-01",
+      "end": "2027-05-06",
+      "deadline": "2026-10-31",
+      "deadline_type": "full paper",
+      "deadline_note": "Main conference 4–6 May; boot camp 1–2 May; workshops/tutorials 3 May. Camera-ready 15 Feb 2027.",
       "status": "closed"
     },
     {
