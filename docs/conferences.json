@@ -1,46 +1,7 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
-    {
-      "id": "icaaic-2027",
-      "acronym": "ICAAIC 2027",
-      "url": "https://cis.ieee.org/conferences/conference-calendar",
-      "city": "Salem, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://cis.ieee.org/conferences/conference-calendar"
-      ],
-      "verified": "2026-10-15",
-      "independent": true,
-      "start": "2027-01-21",
-      "end": "2027-01-23",
-      "deadline": "2026-11-09",
-      "deadline_type": "full paper",
-      "status": "open"
-    },
-    {
-      "id": "icears-2027",
-      "acronym": "ICEARS 2027",
-      "url": "https://icears.com/2027/",
-      "city": "Thoothukudi, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://icears.com/2027/",
-        "https://www.myhuiban.com/conference/5809"
-      ],
-      "verified": "2026-10-16",
-      "name": "International Conference on Electronics and Renewable Systems",
-      "independent": true,
-      "venue": "St. Mother Theresa Engineering College",
-      "start": "2027-02-22",
-      "end": "2027-02-24",
-      "deadline": "2026-11-09",
-      "deadline_type": "full paper",
-      "status": "open"
-    },
     {
       "id": "qpain-2027",
       "acronym": "QPAIN 2027",
@@ -861,6 +822,24 @@
       "status": "closed"
     },
     {
+      "id": "icaaic-2027",
+      "acronym": "ICAAIC 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Salem, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-10-15",
+      "independent": true,
+      "start": "2027-01-21",
+      "end": "2027-01-23",
+      "deadline": "2026-11-09",
+      "deadline_type": "full paper",
+      "status": "closed"
+    },
+    {
       "id": "ncc-2027",
       "acronym": "NCC 2027",
       "url": "https://ece.iisc.ac.in/~ncc2027/",
@@ -879,6 +858,27 @@
       "deadline": "2026-10-16",
       "deadline_type": "full paper",
       "deadline_note": "Notification 24 Dec 2026; camera-ready 8 Jan 2027. 6 pages, IEEE format, double-blind.",
+      "status": "closed"
+    },
+    {
+      "id": "icears-2027",
+      "acronym": "ICEARS 2027",
+      "url": "https://icears.com/2027/",
+      "city": "Thoothukudi, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://icears.com/2027/",
+        "https://www.myhuiban.com/conference/5809"
+      ],
+      "verified": "2026-10-16",
+      "name": "International Conference on Electronics and Renewable Systems",
+      "independent": true,
+      "venue": "St. Mother Theresa Engineering College",
+      "start": "2027-02-22",
+      "end": "2027-02-24",
+      "deadline": "2026-11-09",
+      "deadline_type": "full paper",
       "status": "closed"
     },
     {
