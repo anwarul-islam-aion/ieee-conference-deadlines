@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "source": "https://github.com/aionndc22/ieee-conference-deadlines",
   "conferences": [
     {
@@ -554,25 +554,6 @@
       "status": "tba"
     },
     {
-      "id": "iciset-2026",
-      "acronym": "ICISET 2026",
-      "url": "https://iciset.iiuc.ac.bd/",
-      "city": "Chattogram",
-      "country": "Bangladesh",
-      "format": "Not stated",
-      "sources": [
-        "https://iciset.iiuc.ac.bd/"
-      ],
-      "verified": "2026-10-15",
-      "name": "International Conference on Innovations in Science, Engineering and Technology",
-      "organizers": "International Islamic University Chittagong (IIUC) · IEEE Bangladesh Section (technical co-sponsor)",
-      "venue": "IIUC",
-      "start": "2026-11-08",
-      "end": "2026-11-10",
-      "deadline_passed": true,
-      "status": "closed"
-    },
-    {
       "id": "ingarss-2026",
       "acronym": "InGARSS 2026",
       "url": "https://events.vtools.ieee.org/m/537762",
@@ -1076,6 +1057,25 @@
       "deadline": "2026-08-01",
       "deadline_type": "full paper",
       "notes": "Details from a conference aggregator only; not confirmed on an official site.",
+      "status": "past"
+    },
+    {
+      "id": "iciset-2026",
+      "acronym": "ICISET 2026",
+      "url": "https://iciset.iiuc.ac.bd/",
+      "city": "Chattogram",
+      "country": "Bangladesh",
+      "format": "Not stated",
+      "sources": [
+        "https://iciset.iiuc.ac.bd/"
+      ],
+      "verified": "2026-10-15",
+      "name": "International Conference on Innovations in Science, Engineering and Technology",
+      "organizers": "International Islamic University Chittagong (IIUC) · IEEE Bangladesh Section (technical co-sponsor)",
+      "venue": "IIUC",
+      "start": "2026-11-08",
+      "end": "2026-11-10",
+      "deadline_passed": true,
       "status": "past"
     }
   ]
