@@ -93,6 +93,27 @@
       "status": "open"
     },
     {
+      "id": "arso-2027",
+      "acronym": "IEEE ARSO 2027",
+      "url": "https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/",
+      "city": "San Francisco Bay Area, California",
+      "country": "USA",
+      "format": "Not stated",
+      "sources": [
+        "https://www.ieee-ras.org/events/category/deadlines/list/",
+        "https://www.beri.net/events/ieee-arso-2027"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Advanced Robotics and its Social Impacts",
+      "organizers": "IEEE RAS",
+      "start": "2027-03-13",
+      "end": "2027-03-15",
+      "deadline": "2026-12-01",
+      "deadline_type": "full paper",
+      "notes": "Listings name Mountain View and Stanford; confirm the venue on the official site.",
+      "status": "open"
+    },
+    {
       "id": "wowmom-2027",
       "acronym": "IEEE WoWMoM 2027",
       "url": "https://callforpaper.org/call-for-papers-ieee-wowmom-2027",
@@ -310,6 +331,25 @@
       "status": "open"
     },
     {
+      "id": "icme-2027",
+      "acronym": "IEEE ICME 2027",
+      "url": "https://2027.ieeeicme.org/",
+      "city": "Xiamen",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Multimedia & Expo",
+      "organizers": "IEEE SPS · IEEE Computer Society · IEEE CASS · IEEE ComSoc",
+      "start": "2027-07-13",
+      "end": "2027-07-17",
+      "deadline": "2026-12-30",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
       "id": "southeastcon-2027",
       "acronym": "IEEE SoutheastCon 2027",
       "url": "https://ieeesoutheastcon.org/",
@@ -414,6 +454,44 @@
       "status": "open"
     },
     {
+      "id": "fuzz-ieee-2027",
+      "acronym": "FUZZ-IEEE 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Sydney",
+      "country": "Australia",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Fuzzy Systems",
+      "organizers": "IEEE CIS",
+      "start": "2027-07-10",
+      "end": "2027-07-13",
+      "deadline": "2027-01-15",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
+      "id": "sds-2027",
+      "acronym": "IEEE SDS 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Swiss Conference on Data Science and AI",
+      "organizers": "IEEE CIS (co-sponsor)",
+      "start": "2027-05-31",
+      "end": "2027-06-01",
+      "deadline": "2027-01-23",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
       "id": "ccece-2027",
       "acronym": "IEEE CCECE 2027",
       "url": "https://attend.ieee.org/ccece-2027",
@@ -477,6 +555,25 @@
       "status": "open"
     },
     {
+      "id": "sampta-2027",
+      "acronym": "SampTA 2027",
+      "url": "https://www.uu.nl/en/research/sampta27",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Sampling Theory and Applications",
+      "organizers": "Utrecht University · listed by IEEE SPS",
+      "start": "2027-07-26",
+      "end": "2027-07-30",
+      "deadline": "2027-01-31",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
       "id": "space-2027",
       "acronym": "SPACE 2027",
       "url": "https://ieeespace.org/",
@@ -522,6 +619,45 @@
       "status": "open"
     },
     {
+      "id": "icuas-2027",
+      "acronym": "ICUAS 2027",
+      "url": "https://www.icuas.com/",
+      "city": "Fortaleza",
+      "country": "Brazil",
+      "format": "Not stated",
+      "sources": [
+        "https://ieeecss.org/conferences",
+        "https://www.ieee-ras.org/events/category/deadlines/list/"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Unmanned Aircraft Systems",
+      "organizers": "ICUAS Association · IEEE CSS · IEEE RAS",
+      "start": "2027-06-14",
+      "end": "2027-06-17",
+      "deadline": "2027-02-05",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
+      "id": "eusipco-2027",
+      "acronym": "EUSIPCO 2027",
+      "url": "https://eusipco2027.de/",
+      "city": "Darmstadt",
+      "country": "Germany",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "European Signal Processing Conference",
+      "organizers": "EURASIP · listed by IEEE SPS",
+      "start": "2027-08-30",
+      "end": "2027-09-03",
+      "deadline": "2027-02-06",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
       "id": "ccta-2027",
       "acronym": "IEEE CCTA 2027",
       "url": "https://ccta2027.ieeecss.org/",
@@ -541,6 +677,25 @@
       "deadline": "2027-02-07",
       "deadline_type": "full paper",
       "deadline_note": "Up to 8 pages. Notification 15 May 2027; final paper 23 Jun 2027.",
+      "status": "open"
+    },
+    {
+      "id": "ssp-2027",
+      "acronym": "IEEE SSP 2027",
+      "url": "https://ssp27.ieeesps.org/call-for-papers/",
+      "city": "Annecy",
+      "country": "France",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Statistical Signal Processing Workshop",
+      "organizers": "IEEE SPS",
+      "start": "2027-06-28",
+      "end": "2027-07-01",
+      "deadline": "2027-02-07",
+      "deadline_type": "full paper",
       "status": "open"
     },
     {
@@ -564,6 +719,66 @@
       "status": "open"
     },
     {
+      "id": "bei-2027",
+      "acronym": "BEI 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Hangzhou",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Brain-Inspired Embodied Intelligence",
+      "organizers": "IEEE CIS (technical co-sponsor)",
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "deadline": "2027-02-28",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
+      "id": "cec-2027",
+      "acronym": "IEEE CEC 2027",
+      "url": "https://ieeecec.org/2027/",
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar",
+        "https://ieeecec.org/2027/"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Congress on Evolutionary Computation",
+      "organizers": "IEEE CIS",
+      "start": "2027-07-25",
+      "end": "2027-07-28",
+      "deadline": "2027-02-28",
+      "deadline_type": "full paper",
+      "deadline_note": "Full papers; short papers due 15 Mar 2027. Notification 1 May 2027.",
+      "status": "open"
+    },
+    {
+      "id": "ivmsp-2027",
+      "acronym": "IEEE IVMSP 2027",
+      "url": "https://signalprocessingsociety.org/events/conference-call-papers",
+      "city": "Paris",
+      "country": "France",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Image, Video, and Multidimensional Signal Processing Workshop",
+      "organizers": "IEEE SPS",
+      "start": "2027-06-21",
+      "end": "2027-06-24",
+      "deadline": "2027-02-28",
+      "deadline_type": "full paper",
+      "notes": "Conference website not published yet.",
+      "status": "open"
+    },
+    {
       "id": "icdret-2027",
       "acronym": "ICDRET 2027",
       "url": "https://icdret.uiu.ac.bd/",
@@ -582,6 +797,46 @@
       "deadline": "2027-03-01",
       "deadline_type": "full paper",
       "deadline_note": "Notification 1 Jun 2027. IEEE two-column format.",
+      "status": "open"
+    },
+    {
+      "id": "case-2027",
+      "acronym": "IEEE CASE 2027",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case/",
+      "city": "Linz",
+      "country": "Austria",
+      "format": "Not stated",
+      "sources": [
+        "https://www.ieee-ras.org/events/category/deadlines/list/",
+        "https://www.beri.net/events/ieee-case-2027"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE 23rd International Conference on Automation Science and Engineering",
+      "organizers": "IEEE RAS",
+      "start": "2027-08-23",
+      "end": "2027-08-27",
+      "deadline": "2027-03-01",
+      "deadline_type": "full paper",
+      "notes": "City and dates from one listing (Johannes Kepler University); confirm on the official site.",
+      "status": "open"
+    },
+    {
+      "id": "cog-2027",
+      "acronym": "IEEE CoG 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Aizuwakamatsu",
+      "country": "Japan",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Conference on Games",
+      "organizers": "IEEE CIS",
+      "start": "2027-08-02",
+      "end": "2027-08-05",
+      "deadline": "2027-03-01",
+      "deadline_type": "full paper",
       "status": "open"
     },
     {
@@ -607,6 +862,67 @@
       "status": "open"
     },
     {
+      "id": "aim-2027",
+      "acronym": "IEEE/ASME AIM 2027",
+      "url": "https://aimrl.gatech.edu/AIM.htm",
+      "city": "Boulder, Colorado",
+      "country": "USA",
+      "format": "Not stated",
+      "sources": [
+        "https://www.ieee-ras.org/events/category/deadlines/list/",
+        "https://aimrl.gatech.edu/AIM.htm"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+      "organizers": "IEEE RAS · IEEE IES · ASME",
+      "start": "2027-07-12",
+      "end": "2027-07-16",
+      "deadline": "2027-03-02",
+      "deadline_type": "full paper",
+      "notes": "City and dates from one listing; confirm on the official site.",
+      "status": "open"
+    },
+    {
+      "id": "icar-2027",
+      "acronym": "IEEE ICAR 2027",
+      "url": "https://www.ieee-ras.org/events/category/deadlines/list/",
+      "city": "Zagreb",
+      "country": "Croatia",
+      "format": "Not stated",
+      "sources": [
+        "https://www.ieee-ras.org/events/category/deadlines/list/",
+        "https://www.showsbee.com/fairs/81031-ICAR-Conference-2027.html"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE 23rd International Conference on Advanced Robotics",
+      "organizers": "IEEE RAS",
+      "start": "2027-07-12",
+      "end": "2027-07-16",
+      "deadline": "2027-03-21",
+      "deadline_type": "full paper",
+      "notes": "City and dates from one listing (University of Zagreb); confirm on the official site.",
+      "status": "open"
+    },
+    {
+      "id": "qai-2027",
+      "acronym": "IEEE QAI 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Oslo",
+      "country": "Norway",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Quantum Artificial Intelligence",
+      "organizers": "IEEE CIS (co-sponsor)",
+      "start": "2027-09-07",
+      "end": "2027-09-09",
+      "deadline": "2027-03-30",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
       "id": "cdc-2027",
       "acronym": "IEEE CDC 2027",
       "url": "https://cdc2027.ieeecss.org/",
@@ -628,6 +944,106 @@
       "status": "open"
     },
     {
+      "id": "icip-2027",
+      "acronym": "IEEE ICIP 2027",
+      "url": "https://2027.ieeeicip.org/",
+      "city": "Singapore",
+      "country": "Singapore",
+      "format": "In person",
+      "sources": [
+        "https://2027.ieeeicip.org/",
+        "https://www.beri.net/events/icip-2027"
+      ],
+      "verified": "2026-10-16",
+      "name": "IEEE International Conference on Image Processing",
+      "organizers": "IEEE Signal Processing Society",
+      "start": "2027-11-29",
+      "end": "2027-12-03",
+      "deadline": "2027-03-31",
+      "deadline_type": "full paper",
+      "deadline_note": "Per the IEEE SPS call-for-papers list; part of the 2027 IEEE Signal Processing Summit.",
+      "notes": "Co-located with IEEE CAI 2027 per one listing.",
+      "status": "open"
+    },
+    {
+      "id": "spsympo-2027",
+      "acronym": "SPSympo 2027",
+      "url": "https://spsympo.ise.pw.edu.pl/",
+      "city": "Warsaw",
+      "country": "Poland",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers?page=2"
+      ],
+      "verified": "2026-11-21",
+      "name": "Signal Processing Symposium",
+      "organizers": "Warsaw University of Technology · listed by IEEE SPS",
+      "start": "2027-09-28",
+      "end": "2027-09-30",
+      "deadline": "2027-04-01",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
+      "id": "cibcb-2027",
+      "acronym": "IEEE CIBCB 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Milan",
+      "country": "Italy",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology",
+      "organizers": "IEEE CIS",
+      "start": "2027-08-31",
+      "end": "2027-09-03",
+      "deadline": "2027-04-02",
+      "deadline_type": "full paper",
+      "status": "open"
+    },
+    {
+      "id": "asli-2027",
+      "acronym": "IEEE ASLI 2027",
+      "url": "https://2027.ieeeasli.org/",
+      "city": "Singapore",
+      "country": "Singapore",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers?page=3"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Speech and Language Intelligence",
+      "organizers": "IEEE SPS",
+      "start": "2027-11-30",
+      "end": "2027-12-04",
+      "deadline": "2027-04-21",
+      "deadline_type": "full paper",
+      "notes": "Part of the 2027 IEEE Signal Processing Summit.",
+      "status": "open"
+    },
+    {
+      "id": "mmsp-2027",
+      "acronym": "IEEE MMSP 2027",
+      "url": "https://signalprocessingsociety.org/events/conference-call-papers?page=4",
+      "city": "Klagenfurt",
+      "country": "Austria",
+      "format": "Not stated",
+      "sources": [
+        "https://signalprocessingsociety.org/events/conference-call-papers?page=4"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Workshop on Multimedia Signal Processing",
+      "organizers": "IEEE SPS",
+      "start": "2027-10-06",
+      "end": "2027-10-08",
+      "deadline": "2027-05-14",
+      "deadline_type": "full paper",
+      "deadline_note": "Notification 16 Jun 2027.",
+      "status": "open"
+    },
+    {
       "id": "ic4-2027",
       "acronym": "IEEE IC4 2027",
       "url": "https://callforpaper.org/cfp/call-for-papers-ieee-ic4-2027",
@@ -642,6 +1058,80 @@
       "start": "2027-03-18",
       "end": "2027-03-20",
       "deadline_text": "Not found",
+      "status": "tba"
+    },
+    {
+      "id": "ciss-2027",
+      "acronym": "CISS 2027",
+      "url": "https://ieeecss.org/conferences",
+      "city": "Baltimore, Maryland",
+      "country": "USA",
+      "format": "Not stated",
+      "sources": [
+        "https://ieeecss.org/conferences"
+      ],
+      "verified": "2026-11-21",
+      "name": "Conference on Information Science and Systems",
+      "organizers": "Johns Hopkins University · listed by IEEE CSS",
+      "start": "2027-03-23",
+      "end": "2027-03-26",
+      "deadline_text": "Not confirmed (usually early January)",
+      "status": "tba"
+    },
+    {
+      "id": "ccdc-2027",
+      "acronym": "CCDC 2027",
+      "url": "https://ieeecss.org/conferences",
+      "city": "Changsha",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://ieeecss.org/conferences"
+      ],
+      "verified": "2026-11-21",
+      "name": "39th Chinese Control and Decision Conference",
+      "organizers": "Listed by IEEE CSS",
+      "start": "2027-05-13",
+      "end": "2027-05-16",
+      "deadline_text": "Not announced",
+      "status": "tba"
+    },
+    {
+      "id": "icca-2027",
+      "acronym": "IEEE ICCA 2027",
+      "url": "https://ieeecss.org/conferences",
+      "city": "Zhengzhou",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://ieeecss.org/conferences"
+      ],
+      "verified": "2026-11-21",
+      "name": "21st IEEE International Conference on Control & Automation",
+      "organizers": "IEEE CSS",
+      "start": "2027-06-01",
+      "end": "2027-06-05",
+      "deadline_text": "Not announced",
+      "status": "tba"
+    },
+    {
+      "id": "irs-2027",
+      "acronym": "IRS 2027",
+      "url": "https://www.dgon-irs.org/",
+      "city": "Vienna",
+      "country": "Austria",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines",
+        "https://ieee-aess.org/event/conference/2027-28th-international-radar-symposium"
+      ],
+      "verified": "2026-11-21",
+      "name": "28th International Radar Symposium",
+      "organizers": "DGON · IEEE AESS",
+      "aess": true,
+      "start": "2027-06-02",
+      "end": "2027-06-04",
+      "deadline_text": "Not announced (usually early in the year)",
       "status": "tba"
     },
     {
@@ -684,6 +1174,24 @@
       "status": "tba"
     },
     {
+      "id": "icdl-2027",
+      "acronym": "IEEE ICDL 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Campinas, São Paulo",
+      "country": "Brazil",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Development and Learning",
+      "organizers": "IEEE CIS (co-sponsor)",
+      "start": "2027-09-21",
+      "end": "2027-09-24",
+      "deadline_text": "Not announced",
+      "status": "tba"
+    },
+    {
       "id": "milcom-2027",
       "acronym": "MILCOM 2027",
       "url": "https://events.vtools.ieee.org/m/549317",
@@ -702,23 +1210,23 @@
       "status": "tba"
     },
     {
-      "id": "icip-2027",
-      "acronym": "IEEE ICIP 2027",
-      "url": "https://2027.ieeeicip.org/",
+      "id": "cai-2027",
+      "acronym": "IEEE CAI 2027",
+      "url": "https://cai.ieee.org/2027/",
       "city": "Singapore",
       "country": "Singapore",
-      "format": "In person",
+      "format": "Not stated",
       "sources": [
-        "https://2027.ieeeicip.org/",
-        "https://www.beri.net/events/icip-2027"
+        "https://signalprocessingsociety.org/events/conference-call-papers?page=1",
+        "https://cis.ieee.org/conferences/conference-calendar"
       ],
-      "verified": "2026-10-16",
-      "name": "IEEE International Conference on Image Processing",
-      "organizers": "IEEE Signal Processing Society",
-      "start": "2027-11-29",
-      "end": "2027-12-03",
-      "deadline_text": "Not announced (one tracker says ~1 Feb 2027, tentative)",
-      "notes": "Co-located with IEEE CAI 2027 per one listing.",
+      "verified": "2026-11-21",
+      "name": "IEEE Conference on Artificial Intelligence",
+      "organizers": "IEEE",
+      "venue": "Marina Bay Sands",
+      "start": "2027-11-30",
+      "end": "2027-12-02",
+      "deadline_text": "Not announced",
       "status": "tba"
     },
     {
@@ -738,6 +1246,65 @@
       "end": "2027-12-10",
       "deadline_text": "Not announced (usually around April)",
       "status": "tba"
+    },
+    {
+      "id": "sdf-2026",
+      "acronym": "SDF 2026",
+      "url": "https://www.fkie.fraunhofer.de/en/events/sdf2026.html",
+      "city": "Bonn",
+      "country": "Germany",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines"
+      ],
+      "verified": "2026-11-21",
+      "name": "Sensor Data Fusion: Trends, Solutions, Applications",
+      "organizers": "Fraunhofer FKIE · IEEE AESS",
+      "aess": true,
+      "start": "2026-11-23",
+      "end": "2026-11-25",
+      "deadline_passed": true,
+      "status": "closed"
+    },
+    {
+      "id": "meae-2026",
+      "acronym": "MEAE 2026",
+      "url": "https://www.meae.org/",
+      "city": "Xi'an",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines"
+      ],
+      "verified": "2026-11-21",
+      "name": "12th International Conference on Mechanical Engineering and Aerospace Engineering",
+      "organizers": "Listed by IEEE AESS",
+      "aess": true,
+      "independent": true,
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "deadline_passed": true,
+      "status": "closed"
+    },
+    {
+      "id": "waae-2026",
+      "acronym": "WAAE 2026",
+      "url": "https://waae.net/",
+      "city": "Xi'an",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines"
+      ],
+      "verified": "2026-11-21",
+      "name": "World Conference on Aeronautics and Aerospace Engineering",
+      "organizers": "Listed by IEEE AESS",
+      "aess": true,
+      "independent": true,
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "deadline_passed": true,
+      "status": "closed"
     },
     {
       "id": "ingarss-2026",
@@ -761,6 +1328,26 @@
       "status": "closed"
     },
     {
+      "id": "acmae-2026",
+      "acronym": "ACMAE 2026",
+      "url": "https://acmae.com/",
+      "city": "Phuket",
+      "country": "Thailand",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines"
+      ],
+      "verified": "2026-11-21",
+      "name": "17th Asia Conference on Mechanical and Aerospace Engineering",
+      "organizers": "Listed by IEEE AESS",
+      "aess": true,
+      "independent": true,
+      "start": "2026-12-02",
+      "end": "2026-12-04",
+      "deadline_passed": true,
+      "status": "closed"
+    },
+    {
       "id": "sti-2026",
       "acronym": "STI 2026",
       "url": "https://sti.green.edu.bd/",
@@ -780,6 +1367,26 @@
       "deadline": "2026-08-15",
       "deadline_type": "full paper",
       "deadline_note": "The university news post and EasyChair list 10–11 Dec 2026 instead.",
+      "status": "closed"
+    },
+    {
+      "id": "navicon-2026",
+      "acronym": "NAVICON 2026",
+      "url": "https://ieee-nav.org/2026",
+      "city": "Munich",
+      "country": "Germany",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-aess.org/ieee-aess-conference-deadlines",
+        "https://ieee-aess.org/event/conference/2026-ieee-navigation-conference"
+      ],
+      "verified": "2026-11-21",
+      "name": "2026 IEEE Navigation Conference (first edition)",
+      "organizers": "IEEE AESS",
+      "aess": true,
+      "start": "2026-12-09",
+      "end": "2026-12-11",
+      "deadline_passed": true,
       "status": "closed"
     },
     {
@@ -1033,6 +1640,24 @@
       "status": "closed"
     },
     {
+      "id": "ssci-2027",
+      "acronym": "IEEE SSCI 2027",
+      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "city": "Gold Coast",
+      "country": "Australia",
+      "format": "Not stated",
+      "sources": [
+        "https://cis.ieee.org/conferences/conference-calendar"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Symposium Series on Computational Intelligence",
+      "organizers": "IEEE CIS",
+      "start": "2027-02-14",
+      "end": "2027-02-17",
+      "deadline_passed": true,
+      "status": "closed"
+    },
+    {
       "id": "ncc-2027",
       "acronym": "NCC 2027",
       "url": "https://ece.iisc.ac.in/~ncc2027/",
@@ -1223,6 +1848,27 @@
       "deadline": "2026-09-25",
       "deadline_type": "full paper",
       "deadline_note": "L-CSS route closed 23 Sep 2026. Notification 22 Jan 2027; final papers 12 Mar 2027. 8-page limit.",
+      "status": "closed"
+    },
+    {
+      "id": "ecc-2027",
+      "acronym": "ECC 2027",
+      "url": "https://ecc27.euca-ecc.org/",
+      "city": "Brussels",
+      "country": "Belgium",
+      "format": "Not stated",
+      "sources": [
+        "https://ecc27.euca-ecc.org/"
+      ],
+      "verified": "2026-11-21",
+      "name": "25th European Control Conference",
+      "organizers": "EUCA · IEEE CSS",
+      "venue": "UCLouvain Woluwé campus",
+      "start": "2027-07-13",
+      "end": "2027-07-16",
+      "deadline": "2026-11-09",
+      "deadline_type": "full paper",
+      "deadline_note": "Final deadline (extended from 31 Oct). Notification 5 Mar 2027; final papers 5 Apr 2027.",
       "status": "closed"
     },
     {

@@ -9,17 +9,11 @@
   expected: Usually July–August, Ohio, USA; abstracts due around April–May.
   url: https://attend.ieee.org/naecon-2026
 
-- name: IRS 2027 — International Radar Symposium (AESS co-sponsored)
-  expected: One listing says 2–4 Jun 2027, Vienna, Austria (unconfirmed; check dgon-irs.org).
-  url: https://ieee-aess.org/event/conference/2026-27th-international-radar-symposium
 
 - name: IEEE WiSEE 2027 — Wireless for Space and Extreme Environments (AESS)
   expected: Not yet announced.
   url: https://ieee-aess.org/conferences
 
-- name: ICUAS 2027 — International Conference on Unmanned Aircraft Systems
-  expected: Usually June; venue still TBA (icuas.com). Beware similarly named WASET events in Zurich and Amsterdam.
-  url: https://ieee-ras.org/conferences-workshops/technically-co-sponsored/icuas
 
 - name: IEEE ISIT 2027 — International Symposium on Information Theory
   expected: Usually late June / July; paper deadline usually late January.

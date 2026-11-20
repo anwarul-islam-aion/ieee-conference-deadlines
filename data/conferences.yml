@@ -979,7 +979,9 @@
   start: 2027-11-29
   end: 2027-12-03
   format: In person
-  deadline_text: Not announced (one tracker says ~1 Feb 2027, tentative)
+  deadline: 2027-03-31
+  deadline_type: full paper
+  deadline_note: Per the IEEE SPS call-for-papers list; part of the 2027 IEEE Signal Processing Summit.
   notes: Co-located with IEEE CAI 2027 per one listing.
   sources:
     - https://2027.ieeeicip.org/
@@ -1130,4 +1132,553 @@
   deadline_text: Not announced (abstracts usually due around February)
   sources:
     - https://dasconline.org/2026
+  verified: 2026-11-21
+
+
+# ───────────────────────────── IEEE societies worldwide ─────────────────────────────
+# Added 2026-11-21 from the IEEE AESS, SPS, CIS, CSS and RAS conference calendars.
+
+- id: sdf-2026
+  acronym: SDF 2026
+  name: "Sensor Data Fusion: Trends, Solutions, Applications"
+  url: https://www.fkie.fraunhofer.de/en/events/sdf2026.html
+  organizers: Fraunhofer FKIE · IEEE AESS
+  aess: true
+  city: Bonn
+  country: Germany
+  start: 2026-11-23
+  end: 2026-11-25
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+  verified: 2026-11-21
+
+- id: waae-2026
+  acronym: WAAE 2026
+  name: World Conference on Aeronautics and Aerospace Engineering
+  url: https://waae.net/
+  organizers: Listed by IEEE AESS
+  aess: true
+  independent: true
+  city: Xi'an
+  country: China
+  start: 2026-11-27
+  end: 2026-11-29
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+  verified: 2026-11-21
+
+- id: meae-2026
+  acronym: MEAE 2026
+  name: 12th International Conference on Mechanical Engineering and Aerospace Engineering
+  url: https://www.meae.org/
+  organizers: Listed by IEEE AESS
+  aess: true
+  independent: true
+  city: Xi'an
+  country: China
+  start: 2026-11-27
+  end: 2026-11-29
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+  verified: 2026-11-21
+
+- id: acmae-2026
+  acronym: ACMAE 2026
+  name: 17th Asia Conference on Mechanical and Aerospace Engineering
+  url: https://acmae.com/
+  organizers: Listed by IEEE AESS
+  aess: true
+  independent: true
+  city: Phuket
+  country: Thailand
+  start: 2026-12-02
+  end: 2026-12-04
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+  verified: 2026-11-21
+
+- id: navicon-2026
+  acronym: NAVICON 2026
+  name: 2026 IEEE Navigation Conference (first edition)
+  url: https://ieee-nav.org/2026
+  organizers: IEEE AESS
+  aess: true
+  city: Munich
+  country: Germany
+  start: 2026-12-09
+  end: 2026-12-11
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+    - https://ieee-aess.org/event/conference/2026-ieee-navigation-conference
+  verified: 2026-11-21
+
+- id: irs-2027
+  acronym: IRS 2027
+  name: 28th International Radar Symposium
+  url: https://www.dgon-irs.org/
+  organizers: DGON · IEEE AESS
+  aess: true
+  city: Vienna
+  country: Austria
+  start: 2027-06-02
+  end: 2027-06-04
+  format: Not stated
+  deadline_text: Not announced (usually early in the year)
+  sources:
+    - https://ieee-aess.org/ieee-aess-conference-deadlines
+    - https://ieee-aess.org/event/conference/2027-28th-international-radar-symposium
+  verified: 2026-11-21
+
+- id: icme-2027
+  acronym: IEEE ICME 2027
+  name: IEEE International Conference on Multimedia & Expo
+  url: https://2027.ieeeicme.org/
+  organizers: IEEE SPS · IEEE Computer Society · IEEE CASS · IEEE ComSoc
+  city: Xiamen
+  country: China
+  start: 2027-07-13
+  end: 2027-07-17
+  format: Not stated
+  deadline: 2026-12-30
+  deadline_type: full paper
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers
+  verified: 2026-11-21
+
+- id: sampta-2027
+  acronym: SampTA 2027
+  name: International Conference on Sampling Theory and Applications
+  url: https://www.uu.nl/en/research/sampta27
+  organizers: Utrecht University · listed by IEEE SPS
+  city: Utrecht
+  country: Netherlands
+  start: 2027-07-26
+  end: 2027-07-30
+  format: Not stated
+  deadline: 2027-01-31
+  deadline_type: full paper
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers
+  verified: 2026-11-21
+
+- id: eusipco-2027
+  acronym: EUSIPCO 2027
+  name: European Signal Processing Conference
+  url: https://eusipco2027.de/
+  organizers: EURASIP · listed by IEEE SPS
+  city: Darmstadt
+  country: Germany
+  start: 2027-08-30
+  end: 2027-09-03
+  format: Not stated
+  deadline: 2027-02-06
+  deadline_type: full paper
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers
+  verified: 2026-11-21
+
+- id: ssp-2027
+  acronym: IEEE SSP 2027
+  name: IEEE Statistical Signal Processing Workshop
+  url: https://ssp27.ieeesps.org/call-for-papers/
+  organizers: IEEE SPS
+  city: Annecy
+  country: France
+  start: 2027-06-28
+  end: 2027-07-01
+  format: Not stated
+  deadline: 2027-02-07
+  deadline_type: full paper
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers
+  verified: 2026-11-21
+
+- id: ivmsp-2027
+  acronym: IEEE IVMSP 2027
+  name: IEEE Image, Video, and Multidimensional Signal Processing Workshop
+  url: https://signalprocessingsociety.org/events/conference-call-papers
+  organizers: IEEE SPS
+  city: Paris
+  country: France
+  start: 2027-06-21
+  end: 2027-06-24
+  format: Not stated
+  deadline: 2027-02-28
+  deadline_type: full paper
+  notes: Conference website not published yet.
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers
+  verified: 2026-11-21
+
+- id: spsympo-2027
+  acronym: SPSympo 2027
+  name: Signal Processing Symposium
+  url: https://spsympo.ise.pw.edu.pl/
+  organizers: Warsaw University of Technology · listed by IEEE SPS
+  city: Warsaw
+  country: Poland
+  start: 2027-09-28
+  end: 2027-09-30
+  format: Not stated
+  deadline: 2027-04-01
+  deadline_type: full paper
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers?page=2
+  verified: 2026-11-21
+
+- id: asli-2027
+  acronym: IEEE ASLI 2027
+  name: IEEE International Conference on Speech and Language Intelligence
+  url: https://2027.ieeeasli.org/
+  organizers: IEEE SPS
+  city: Singapore
+  country: Singapore
+  start: 2027-11-30
+  end: 2027-12-04
+  format: Not stated
+  deadline: 2027-04-21
+  deadline_type: full paper
+  notes: Part of the 2027 IEEE Signal Processing Summit.
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers?page=3
+  verified: 2026-11-21
+
+- id: mmsp-2027
+  acronym: IEEE MMSP 2027
+  name: IEEE International Workshop on Multimedia Signal Processing
+  url: https://signalprocessingsociety.org/events/conference-call-papers?page=4
+  organizers: IEEE SPS
+  city: Klagenfurt
+  country: Austria
+  start: 2027-10-06
+  end: 2027-10-08
+  format: Not stated
+  deadline: 2027-05-14
+  deadline_type: full paper
+  deadline_note: Notification 16 Jun 2027.
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers?page=4
+  verified: 2026-11-21
+
+- id: cai-2027
+  acronym: IEEE CAI 2027
+  name: IEEE Conference on Artificial Intelligence
+  url: https://cai.ieee.org/2027/
+  organizers: IEEE
+  city: Singapore
+  venue: Marina Bay Sands
+  country: Singapore
+  start: 2027-11-30
+  end: 2027-12-02
+  format: Not stated
+  deadline_text: Not announced
+  sources:
+    - https://signalprocessingsociety.org/events/conference-call-papers?page=1
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: ssci-2027
+  acronym: IEEE SSCI 2027
+  name: IEEE Symposium Series on Computational Intelligence
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS
+  city: Gold Coast
+  country: Australia
+  start: 2027-02-14
+  end: 2027-02-17
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: bei-2027
+  acronym: BEI 2027
+  name: International Conference on Brain-Inspired Embodied Intelligence
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS (technical co-sponsor)
+  city: Hangzhou
+  country: China
+  start: 2027-05-14
+  end: 2027-05-16
+  format: Not stated
+  deadline: 2027-02-28
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: sds-2027
+  acronym: IEEE SDS 2027
+  name: IEEE Swiss Conference on Data Science and AI
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS (co-sponsor)
+  city: Zurich
+  country: Switzerland
+  start: 2027-05-31
+  end: 2027-06-01
+  format: Not stated
+  deadline: 2027-01-23
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: fuzz-ieee-2027
+  acronym: FUZZ-IEEE 2027
+  name: IEEE International Conference on Fuzzy Systems
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS
+  city: Sydney
+  country: Australia
+  start: 2027-07-10
+  end: 2027-07-13
+  format: Not stated
+  deadline: 2027-01-15
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: cec-2027
+  acronym: IEEE CEC 2027
+  name: IEEE Congress on Evolutionary Computation
+  url: https://ieeecec.org/2027/
+  organizers: IEEE CIS
+  city: Edinburgh
+  country: United Kingdom
+  start: 2027-07-25
+  end: 2027-07-28
+  format: Not stated
+  deadline: 2027-02-28
+  deadline_type: full paper
+  deadline_note: Full papers; short papers due 15 Mar 2027. Notification 1 May 2027.
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+    - https://ieeecec.org/2027/
+  verified: 2026-11-21
+
+- id: cog-2027
+  acronym: IEEE CoG 2027
+  name: IEEE Conference on Games
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS
+  city: Aizuwakamatsu
+  country: Japan
+  start: 2027-08-02
+  end: 2027-08-05
+  format: Not stated
+  deadline: 2027-03-01
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: cibcb-2027
+  acronym: IEEE CIBCB 2027
+  name: IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS
+  city: Milan
+  country: Italy
+  start: 2027-08-31
+  end: 2027-09-03
+  format: Not stated
+  deadline: 2027-04-02
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: qai-2027
+  acronym: IEEE QAI 2027
+  name: IEEE International Conference on Quantum Artificial Intelligence
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS (co-sponsor)
+  city: Oslo
+  country: Norway
+  start: 2027-09-07
+  end: 2027-09-09
+  format: Not stated
+  deadline: 2027-03-30
+  deadline_type: full paper
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: icdl-2027
+  acronym: IEEE ICDL 2027
+  name: IEEE International Conference on Development and Learning
+  url: https://cis.ieee.org/conferences/conference-calendar
+  organizers: IEEE CIS (co-sponsor)
+  city: Campinas, São Paulo
+  country: Brazil
+  start: 2027-09-21
+  end: 2027-09-24
+  format: Not stated
+  deadline_text: Not announced
+  sources:
+    - https://cis.ieee.org/conferences/conference-calendar
+  verified: 2026-11-21
+
+- id: ciss-2027
+  acronym: CISS 2027
+  name: Conference on Information Science and Systems
+  url: https://ieeecss.org/conferences
+  organizers: Johns Hopkins University · listed by IEEE CSS
+  city: Baltimore, Maryland
+  country: USA
+  start: 2027-03-23
+  end: 2027-03-26
+  format: Not stated
+  deadline_text: Not confirmed (usually early January)
+  sources:
+    - https://ieeecss.org/conferences
+  verified: 2026-11-21
+
+- id: ccdc-2027
+  acronym: CCDC 2027
+  name: 39th Chinese Control and Decision Conference
+  url: https://ieeecss.org/conferences
+  organizers: Listed by IEEE CSS
+  city: Changsha
+  country: China
+  start: 2027-05-13
+  end: 2027-05-16
+  format: Not stated
+  deadline_text: Not announced
+  sources:
+    - https://ieeecss.org/conferences
+  verified: 2026-11-21
+
+- id: icca-2027
+  acronym: IEEE ICCA 2027
+  name: 21st IEEE International Conference on Control & Automation
+  url: https://ieeecss.org/conferences
+  organizers: IEEE CSS
+  city: Zhengzhou
+  country: China
+  start: 2027-06-01
+  end: 2027-06-05
+  format: Not stated
+  deadline_text: Not announced
+  sources:
+    - https://ieeecss.org/conferences
+  verified: 2026-11-21
+
+- id: icuas-2027
+  acronym: ICUAS 2027
+  name: International Conference on Unmanned Aircraft Systems
+  url: https://www.icuas.com/
+  organizers: ICUAS Association · IEEE CSS · IEEE RAS
+  city: Fortaleza
+  country: Brazil
+  start: 2027-06-14
+  end: 2027-06-17
+  format: Not stated
+  deadline: 2027-02-05
+  deadline_type: full paper
+  sources:
+    - https://ieeecss.org/conferences
+    - https://www.ieee-ras.org/events/category/deadlines/list/
+  verified: 2026-11-21
+
+- id: ecc-2027
+  acronym: ECC 2027
+  name: 25th European Control Conference
+  url: https://ecc27.euca-ecc.org/
+  organizers: EUCA · IEEE CSS
+  city: Brussels
+  venue: UCLouvain Woluwé campus
+  country: Belgium
+  start: 2027-07-13
+  end: 2027-07-16
+  format: Not stated
+  deadline: 2026-11-09
+  deadline_type: full paper
+  deadline_note: Final deadline (extended from 31 Oct). Notification 5 Mar 2027; final papers 5 Apr 2027.
+  sources:
+    - https://ecc27.euca-ecc.org/
+  verified: 2026-11-21
+
+- id: arso-2027
+  acronym: IEEE ARSO 2027
+  name: IEEE International Conference on Advanced Robotics and its Social Impacts
+  url: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
+  organizers: IEEE RAS
+  city: San Francisco Bay Area, California
+  country: USA
+  start: 2027-03-13
+  end: 2027-03-15
+  format: Not stated
+  deadline: 2026-12-01
+  deadline_type: full paper
+  notes: Listings name Mountain View and Stanford; confirm the venue on the official site.
+  sources:
+    - https://www.ieee-ras.org/events/category/deadlines/list/
+    - https://www.beri.net/events/ieee-arso-2027
+  verified: 2026-11-21
+
+- id: case-2027
+  acronym: IEEE CASE 2027
+  name: IEEE 23rd International Conference on Automation Science and Engineering
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case/
+  organizers: IEEE RAS
+  city: Linz
+  country: Austria
+  start: 2027-08-23
+  end: 2027-08-27
+  format: Not stated
+  deadline: 2027-03-01
+  deadline_type: full paper
+  notes: City and dates from one listing (Johannes Kepler University); confirm on the official site.
+  sources:
+    - https://www.ieee-ras.org/events/category/deadlines/list/
+    - https://www.beri.net/events/ieee-case-2027
+  verified: 2026-11-21
+
+- id: aim-2027
+  acronym: IEEE/ASME AIM 2027
+  name: IEEE/ASME International Conference on Advanced Intelligent Mechatronics
+  url: https://aimrl.gatech.edu/AIM.htm
+  organizers: IEEE RAS · IEEE IES · ASME
+  city: Boulder, Colorado
+  country: USA
+  start: 2027-07-12
+  end: 2027-07-16
+  format: Not stated
+  deadline: 2027-03-02
+  deadline_type: full paper
+  notes: City and dates from one listing; confirm on the official site.
+  sources:
+    - https://www.ieee-ras.org/events/category/deadlines/list/
+    - https://aimrl.gatech.edu/AIM.htm
+  verified: 2026-11-21
+
+- id: icar-2027
+  acronym: IEEE ICAR 2027
+  name: IEEE 23rd International Conference on Advanced Robotics
+  url: https://www.ieee-ras.org/events/category/deadlines/list/
+  organizers: IEEE RAS
+  city: Zagreb
+  country: Croatia
+  start: 2027-07-12
+  end: 2027-07-16
+  format: Not stated
+  deadline: 2027-03-21
+  deadline_type: full paper
+  notes: City and dates from one listing (University of Zagreb); confirm on the official site.
+  sources:
+    - https://www.ieee-ras.org/events/category/deadlines/list/
+    - https://www.showsbee.com/fairs/81031-ICAR-Conference-2027.html
   verified: 2026-11-21

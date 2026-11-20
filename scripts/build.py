@@ -48,29 +48,8 @@ PAGES = {
         lambda c: True,
         "IEEE & AESS Conference Deadlines 2026–2027 | Call for Papers Tracker",
         "IEEE & AESS conference deadlines",
-        "Upcoming IEEE and IEEE AESS conferences with paper submission deadlines, venue, "
-        "country, dates and format (in person / hybrid). Bangladesh, India, USA and worldwide.",
-    ),
-    "bangladesh": (
-        lambda c: c["country"] == "Bangladesh",
-        "IEEE Conferences in Bangladesh 2026–2027 | Paper Submission Deadlines",
-        "IEEE conferences in Bangladesh",
-        "Upcoming IEEE conferences in Bangladesh (Dhaka, Chattogram, Cox's Bazar and more) "
-        "with paper submission deadlines, dates and format.",
-    ),
-    "india": (
-        lambda c: c["country"] == "India",
-        "IEEE Conferences in India 2026–2027 | Paper Submission Deadlines",
-        "IEEE conferences in India",
-        "Upcoming IEEE conferences in India (Bengaluru, New Delhi, Chennai and more) "
-        "with paper submission deadlines, dates and format.",
-    ),
-    "usa": (
-        lambda c: c["country"] == "USA",
-        "IEEE Conferences in the USA 2026–2027 | Paper Submission Deadlines",
-        "IEEE conferences in the USA",
-        "Upcoming IEEE conferences in the United States with paper submission deadlines, "
-        "venue, dates and format.",
+        "Upcoming IEEE and IEEE AESS conferences worldwide with paper submission deadlines, "
+        "venue, country, dates and format (in person / hybrid).",
     ),
     "aess": (
         lambda c: c.get("aess"),
@@ -83,17 +62,44 @@ PAGES = {
 
 STATUS_ORDER = {"open": 0, "tba": 1, "closed": 2, "past": 3}
 
-NAV = (("", "All"), ("bangladesh", "Bangladesh"), ("india", "India"), ("usa", "USA"),
-       ("aess", "AESS"), ("journals", "Journals"))
+SECTIONS = (("", "Conferences"), ("journals", "Journals"))
+CONF_TABS = (("", "All IEEE"), ("aess", "AESS"))
+
+REGIONS = {
+    "Asia": ("Bangladesh", "India", "China", "Japan", "South Korea", "Singapore", "Thailand", "Vietnam",
+             "Malaysia", "Indonesia", "Taiwan", "Hong Kong", "Sri Lanka", "Nepal", "Pakistan", "Philippines"),
+    "Middle East": ("United Arab Emirates", "Saudi Arabia", "Qatar", "Turkey", "Israel", "Jordan", "Oman"),
+    "Europe": ("Austria", "Belgium", "Croatia", "Czech Republic", "Denmark", "Finland", "France", "Germany",
+               "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Netherlands", "Norway", "Poland",
+               "Portugal", "Romania", "Spain", "Sweden", "Switzerland", "United Kingdom"),
+    "North America": ("USA", "Canada", "Mexico", "Panama", "Costa Rica"),
+    "South America": ("Brazil", "Argentina", "Chile", "Colombia", "Peru"),
+    "Africa": ("South Africa", "Egypt", "Morocco", "Nigeria", "Kenya", "Tunisia"),
+    "Oceania": ("Australia", "New Zealand"),
+}
+REGION_OF = {country: region for region, cs in REGIONS.items() for country in cs}
+
+
+def region_of(c: dict) -> str:
+    return REGION_OF.get(c["country"], "Other")
+
+
+def _links(items, current: str, depth: str) -> str:
+    cur = ' aria-current="page"'
+    return " ".join(
+        f'<a href="{depth}{s + "/" if s else ""}"{cur if s == current else ""}>{label}</a>'
+        for s, label in items
+    )
 
 
 def nav_html(slug: str) -> str:
-    depth = "../" if slug else ""
-    current = ' aria-current="page"'
-    return " ".join(
-        f'<a href="{depth}{s + "/" if s else ""}"{current if s == slug else ""}>{label}</a>'
-        for s, label in NAV
-    )
+    """Top-level tabs: Conferences | Journals."""
+    return _links(SECTIONS, "journals" if slug == "journals" else "", "../" if slug else "")
+
+
+def subnav_html(slug: str) -> str:
+    """Conference views: All IEEE | AESS."""
+    return _links(CONF_TABS, slug, "../" if slug else "")
 
 
 # ───────────────────────────── loading & validation ─────────────────────────────
@@ -346,12 +352,12 @@ def build_readme(confs: list[dict], watch: list[dict], today: dt.date,
 
 **A community-maintained guide for researchers publishing with IEEE:**
 
-- 📅 **Conferences** — upcoming IEEE and IEEE AESS conferences with their **paper submission deadlines**, venue, country, dates and format (in person or hybrid). In-depth coverage of **Bangladesh, India and the USA**, plus major conferences worldwide.
+- 📅 **Conferences** — upcoming IEEE and IEEE AESS conferences with their **paper submission deadlines**, venue, country, dates and format (in person or hybrid), worldwide. Covers every IEEE AESS event plus conferences from the IEEE societies (signal processing, communications, robotics, control, computational intelligence, microwaves, antennas and more).
 - 📚 **Journals** — **{len(regular)} IEEE journals and {len(mags)} magazines** grouped by research track, with their **open-access model** (hybrid or fully open access), **{year} APC**, society-member price and **time to first decision** where one is published.
 
 | | 📅 Conferences | 📚 Journals |
 |---|---|---|
-| **Website** | [All]({SITE_URL}/) · [Bangladesh]({SITE_URL}/bangladesh/) · [India]({SITE_URL}/india/) · [USA]({SITE_URL}/usa/) · [AESS]({SITE_URL}/aess/) | [Searchable journal list]({SITE_URL}/journals/) |
+| **Website** | [All IEEE conferences]({SITE_URL}/) · [AESS conferences]({SITE_URL}/aess/) | [Searchable journal list]({SITE_URL}/journals/) |
 | **Read on GitHub** | [This page ↓](#conferences) | [JOURNALS.md](JOURNALS.md) |
 | **Download** | [JSON](docs/conferences.json) · [CSV](docs/conferences.csv) · [YAML](data/conferences.yml) | [Excel](docs/IEEE_Journals_APC.xlsx) · [JSON](docs/journals.json) · [CSV](docs/journals.csv) · [YAML](data/journals.yml) |
 | **Contribute** | [Add or fix a conference]({REPO_URL}/issues/new/choose) | [Add or fix a journal]({REPO_URL}/issues/new/choose) |
@@ -428,7 +434,7 @@ data/journals.yml      ─┘                       docs/  (website, JSON, CSV, 
 
 - **Pull requests** are checked automatically: the build validates every entry (dates, required fields, source links).
 - **After a merge**, and **every day**, GitHub Actions rebuilds the README, journal list and website so "days left" and open/closed statuses stay current.
-- The **website** is served by GitHub Pages from `docs/`, with per-country pages, schema.org event data and a sitemap so search engines can find it.
+- The **website** is served by GitHub Pages from `docs/`, with separate Conferences and Journals sections, region and country filters, schema.org event data and a sitemap so search engines can find it.
 
 Run it locally:
 
@@ -456,7 +462,7 @@ Conference dates come from official conference sites, IEEE society calendars and
 
 [MIT](LICENSE) — free to use, share and build on.
 
-<sub>Keywords: IEEE conference deadlines, call for papers 2027, CFP, paper submission deadline, IEEE AESS, aerospace conference, radar conference, navigation conference, IEEE conferences in Bangladesh, IEEE conferences in India, IEEE conferences in USA, IEEE journal APC {year}, IEEE article processing charge, IEEE hybrid journals, IEEE open access journals, IEEE journal review time, time to first decision.</sub>
+<sub>Keywords: IEEE conference deadlines, call for papers 2027, CFP, paper submission deadline, IEEE AESS, aerospace conference, radar conference, navigation conference, signal processing conference, robotics conference, control conference, IEEE conferences worldwide, IEEE journal APC {year}, IEEE article processing charge, IEEE hybrid journals, IEEE open access journals, IEEE journal review time, time to first decision.</sub>
 """
 
 
@@ -486,7 +492,11 @@ a { color: var(--accent); }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 24px 16px 48px; }
 header h1 { margin: 0 0 4px; font-size: 1.7rem; line-height: 1.25; }
 header p { margin: 4px 0; color: var(--muted); max-width: 72ch; }
-nav.pages { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 12px; }
+nav.sections { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin: 18px 0 0; }
+nav.sections a { padding: 8px 16px; text-decoration: none; color: var(--muted); font-weight: 650;
+  font-size: 1.05rem; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+nav.sections a[aria-current] { color: var(--text); border-bottom-color: var(--accent); }
+nav.pages { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 12px; }
 nav.pages a { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface);
   text-decoration: none; color: var(--text); font-weight: 500; }
 nav.pages a[aria-current] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
@@ -616,7 +626,7 @@ def html_row(c: dict, today: dt.date) -> str:
         str(c.get(k, "")) for k in ("acronym", "name", "organizers", "city", "venue", "country")
     ).lower()
 
-    return f"""<tr data-id="{h(c['id'])}" data-status="{st}" data-deadline="{c['deadline'].isoformat() if c.get('deadline') else ''}" data-passed="{'1' if c.get('deadline_passed') else ''}" data-start="{c['start'].isoformat() if c.get('start') else ''}" data-end="{c['end'].isoformat() if c.get('end') else ''}" data-country="{h(c['country'])}" data-format="{h(c['format'])}" data-aess="{'1' if c.get('aess') else ''}" data-search="{h(search)}">
+    return f"""<tr data-id="{h(c['id'])}" data-status="{st}" data-deadline="{c['deadline'].isoformat() if c.get('deadline') else ''}" data-passed="{'1' if c.get('deadline_passed') else ''}" data-start="{c['start'].isoformat() if c.get('start') else ''}" data-end="{c['end'].isoformat() if c.get('end') else ''}" data-country="{h(c['country'])}" data-region="{h(region_of(c))}" data-format="{h(c['format'])}" data-aess="{'1' if c.get('aess') else ''}" data-search="{h(search)}">
 <td data-label="Conference"><div><a class="conf" href="{h(c['url'])}" rel="noopener" target="_blank">{h(c['acronym'])}</a>{tags}{sub}{org}</div></td>
 <td data-label="Paper submission deadline"><div><span class="dl">{h(deadline_main(c))}</span> <span class="badge b-{st}" data-badge>{emoji} {h(label)}</span>{dl_sub}</div></td>
 <td data-label="Place"><div>{h(c['city'])}{venue}</div></td>
@@ -636,11 +646,18 @@ def build_page(slug: str, confs: list[dict], today: dt.date) -> str:
     depth = "../" if slug else ""
     canonical = f"{SITE_URL}/{slug + '/' if slug else ''}"
     nav = nav_html(slug)
+    subnav = subnav_html(slug)
     countries = sorted({c["country"] for c in rows})
     country_opts = "".join(f'<option value="{h(x)}">{h(x)}</option>' for x in countries)
     country_filter = (
         f'<label>Country <select id="f-country"><option value="">All</option>{country_opts}</select></label>'
         if len(countries) > 1 else ""
+    )
+    regions = [r for r in (*REGIONS, "Other") if any(region_of(c) == r for c in rows)]
+    region_opts = "".join(f'<option value="{h(x)}">{h(x)}</option>' for x in regions)
+    region_filter = (
+        f'<label>Region <select id="f-region"><option value="">All</option>{region_opts}</select></label>'
+        if len(regions) > 1 else ""
     )
     counts = {s: sum(1 for c in rows if status_of(c, today) == s) for s in ("open", "tba", "closed")}
     body_rows = "\n".join(html_row(c, today) for c in rows)
@@ -652,7 +669,7 @@ def build_page(slug: str, confs: list[dict], today: dt.date) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{h(title)}</title>
 <meta name="description" content="{h(desc)}">
-<meta name="keywords" content="IEEE conference deadlines, call for papers, CFP 2027, paper submission deadline, IEEE AESS, aerospace, radar, navigation, IEEE conferences Bangladesh, IEEE conferences India, IEEE conferences USA">
+<meta name="keywords" content="IEEE conference deadlines, call for papers, CFP 2027, paper submission deadline, IEEE AESS, aerospace, radar, navigation, signal processing, robotics, control, communications, IEEE conferences worldwide">
 <link rel="canonical" href="{h(canonical)}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{h(title)}">
@@ -675,7 +692,8 @@ def build_page(slug: str, confs: list[dict], today: dt.date) -> str:
 <p>Community-maintained on <a href="{REPO_URL}">GitHub</a> — <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">add or fix a conference</a>.
 Last updated <time datetime="{today.isoformat()}">{fmt_day(today)}</time>. Always confirm dates on the official site.</p>
 </header>
-<nav class="pages" aria-label="Pages">{nav}</nav>
+<nav class="sections" aria-label="Sections">{nav}</nav>
+<nav class="pages" aria-label="Conference views">{subnav}</nav>
 <div class="stats">
 <div class="stat"><b id="n-open">{counts['open']}</b> open calls</div>
 <div class="stat"><b id="n-tba">{counts['tba']}</b> not announced</div>
@@ -683,6 +701,7 @@ Last updated <time datetime="{today.isoformat()}">{fmt_day(today)}</time>. Alway
 </div>
 <div class="filters" role="search">
 <input type="search" id="f-q" placeholder="Search conference, city, society…" aria-label="Search">
+{region_filter}
 {country_filter}
 <label>Status <select id="f-status"><option value="">All</option><option value="open">Open</option><option value="tba">Not announced</option><option value="closed">Closed</option></select></label>
 <label>Format <select id="f-format"><option value="">All</option>{''.join(f'<option>{x}</option>' for x in FORMATS)}</select></label>
@@ -739,6 +758,7 @@ Last updated <time datetime="{today.isoformat()}">{fmt_day(today)}</time>. Alway
   }});
   rows.forEach(function (r) {{ tbody.appendChild(r); }});
 
+  var fr = document.getElementById("f-region");
   var q = document.getElementById("f-q"), fc = document.getElementById("f-country"),
       fs = document.getElementById("f-status"), ff = document.getElementById("f-format"),
       fa = document.getElementById("f-aess"), empty = document.getElementById("empty");
@@ -747,6 +767,7 @@ Last updated <time datetime="{today.isoformat()}">{fmt_day(today)}</time>. Alway
     rows.forEach(function (r) {{
       var ok = r.dataset.status !== "past" &&
         (!text || r.dataset.search.indexOf(text) !== -1) &&
+        (!fr || !fr.value || r.dataset.region === fr.value) &&
         (!fc || !fc.value || r.dataset.country === fc.value) &&
         (!fs.value || r.dataset.status === fs.value) &&
         (!ff.value || r.dataset.format === ff.value) &&
@@ -757,7 +778,7 @@ Last updated <time datetime="{today.isoformat()}">{fmt_day(today)}</time>. Alway
     ["open", "tba", "closed"].forEach(function (k) {{ document.getElementById("n-" + k).textContent = counts[k]; }});
     empty.hidden = shown > 0;
   }}
-  [q, fc, fs, ff, fa].forEach(function (el) {{ if (el) el.addEventListener("input", apply); }});
+  [q, fr, fc, fs, ff, fa].forEach(function (el) {{ if (el) el.addEventListener("input", apply); }});
   apply();
 }})();
 </script>
@@ -1058,7 +1079,7 @@ def build_journals_page(pricing: dict, journals: list[dict]) -> str:
 <p>{h(desc)}</p>
 <p>Prices last checked <time datetime="{h(pricing.get('verified', ''))}">{h(pricing.get('verified', ''))}</time>. Society members get {int(disc['society_member'] * 100)}% off, IEEE members {int(disc['ieee_member'] * 100)}%. Hybrid journals are free to publish in unless you choose open access. Community-maintained on <a href="{REPO_URL}">GitHub</a> — <a href="{REPO_URL}/blob/main/CONTRIBUTING.md#journals">add or fix a journal</a>.</p>
 </header>
-<nav class="pages" aria-label="Pages">{nav_html("journals")}</nav>
+<nav class="sections" aria-label="Sections">{nav_html("journals")}</nav>
 <div class="stats">{rules}<div class="stat"><b id="n-shown">{len(journals)}</b> shown</div></div>
 <div class="filters" role="search">
 <input type="search" id="f-q" placeholder="Search journal name or acronym…" aria-label="Search">
