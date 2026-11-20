@@ -71,7 +71,7 @@ def build_xlsx(pricing: dict, journals: list[dict], path: Path) -> None:
         ("• APCs are formulas that read the 'Pricing rules' sheet — change a blue cell there and every journal updates. A few titles have their own price (set in the data).", BODY),
         ("• Decision times: IEEE does not publish a time to first decision for most journals. Figures appear only where an IEEE society or a named source gives one; the source type is shown next to it.", BODY),
         ("• Red notes: open-access model not confirmed in 2026 sources — check the journal's author page.", BODY),
-        ("Generated from data/journals.yml in github.com/aionndc22/ieee-conference-deadlines — contributions welcome. Not affiliated with IEEE.", NOTE),
+        ("Generated from data/journals.yml in github.com/anwarul-islam-aion/ieee-conference-journal-tracker — contributions welcome. Not affiliated with IEEE.", NOTE),
     ]
     for r, (txt, f) in enumerate(lines, 1):
         c = rm.cell(row=r, column=1, value=txt)
@@ -177,7 +177,7 @@ def build_xlsx(pricing: dict, journals: list[dict], path: Path) -> None:
     # Deterministic output: fixed document dates and zip timestamps.
     fixed = dt.datetime(2026, 1, 1)
     wb.properties.created = wb.properties.modified = fixed
-    wb.properties.creator = "ieee-conference-deadlines"
+    wb.properties.creator = "IEEE Conferences & Journals Tracker"
     buf = io.BytesIO()
     wb.save(buf)
     path.parent.mkdir(parents=True, exist_ok=True)

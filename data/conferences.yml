@@ -1682,3 +1682,794 @@
     - https://www.ieee-ras.org/events/category/deadlines/list/
     - https://www.showsbee.com/fairs/81031-ICAR-Conference-2027.html
   verified: 2026-11-21
+
+# ───────────────────────────── IEEE societies worldwide (continued) ─────────────────────────────
+
+- id: ccnc-2027
+  acronym: IEEE CCNC 2027
+  name: IEEE Consumer Communications & Networking Conference
+  url: https://ccnc2027.ieee-ccnc.org/
+  organizers: IEEE ComSoc
+  city: Las Vegas, Nevada
+  country: USA
+  start: 2027-01-09
+  end: 2027-01-12
+  format: Not stated
+  deadline: 2026-07-01
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://ccnc2027.ieee-ccnc.org/
+  verified: 2026-11-21
+
+- id: vcc-2027
+  acronym: IEEE VCC 2027
+  name: IEEE Virtual Conference on Communications
+  url: https://vcc2027.ieee-vcc.org/
+  organizers: IEEE ComSoc
+  city: Online
+  country: Online
+  start: 2027-03-02
+  end: 2027-03-04
+  format: Virtual
+  deadline: 2026-11-06
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://vcc2027.ieee-vcc.org/
+  verified: 2026-11-21
+
+- id: latiniot-2027
+  acronym: IEEE LatinIoT 2027
+  url: https://latiniot2027.iot.ieee.org/
+  organizers: IEEE ComSoc
+  city: Santiago
+  country: Chile
+  start: 2027-04-28
+  end: 2027-04-30
+  format: Not stated
+  deadline: 2026-11-28
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://latiniot2027.iot.ieee.org/
+  verified: 2026-11-21
+
+- id: secon-2027
+  acronym: IEEE SECON 2027
+  name: IEEE International Conference on Sensing, Communication, and Networking
+  url: https://secon2027.ieee-secon.org/
+  organizers: IEEE ComSoc
+  city: Lisbon
+  country: Portugal
+  start: 2027-05-05
+  end: 2027-05-07
+  format: Not stated
+  deadline: 2026-11-30
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://secon2027.ieee-secon.org/
+  verified: 2026-11-21
+
+- id: ctw-2027
+  acronym: IEEE CTW 2027
+  name: IEEE Communication Theory Workshop
+  url: https://ctw2027.ieee-ctw.org/
+  organizers: IEEE ComSoc
+  city: Jeju
+  country: South Korea
+  start: 2027-05-09
+  end: 2027-05-12
+  format: Not stated
+  deadline: 2027-03-13
+  deadline_type: extended abstract
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://ctw2027.ieee-ctw.org/
+  verified: 2026-11-21
+
+- id: noms-2027
+  acronym: IEEE/IFIP NOMS 2027
+  name: IEEE/IFIP Network Operations and Management Symposium
+  url: https://noms2027.ieee-noms.org/
+  organizers: IEEE ComSoc
+  city: Montreal
+  country: Canada
+  start: 2027-05-10
+  end: 2027-05-14
+  format: Not stated
+  deadline: 2026-11-09
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://noms2027.ieee-noms.org/
+  verified: 2026-11-21
+
+- id: dyspan-2027
+  acronym: IEEE DySPAN 2027
+  name: IEEE International Symposium on Dynamic Spectrum Access Networks
+  url: https://dyspan2027.ieee-dyspan.org/
+  organizers: IEEE ComSoc
+  city: Ottawa
+  country: Canada
+  start: 2027-05-17
+  end: 2027-05-20
+  format: Not stated
+  deadline: 2026-12-07
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://dyspan2027.ieee-dyspan.org/
+  verified: 2026-11-21
+
+- id: infocom-2027
+  acronym: IEEE INFOCOM 2027
+  name: IEEE International Conference on Computer Communications
+  url: https://infocom2027.ieee-infocom.org/
+  organizers: IEEE ComSoc
+  city: Honolulu, Hawaii
+  country: USA
+  start: 2027-05-24
+  end: 2027-05-27
+  format: Not stated
+  deadline: 2026-07-31
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://infocom2027.ieee-infocom.org/
+  verified: 2026-11-21
+
+- id: icbc-2027
+  acronym: IEEE ICBC 2027
+  name: IEEE International Conference on Blockchain and Cryptocurrency
+  url: https://icbc2027.ieee-icbc.org/
+  organizers: IEEE ComSoc
+  city: Toronto
+  country: Canada
+  start: 2027-05-31
+  end: 2027-06-04
+  format: Not stated
+  deadline_text: Not stated on the ComSoc listing
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://icbc2027.ieee-icbc.org/
+  verified: 2026-11-21
+
+- id: icmlcn-2027
+  acronym: IEEE ICMLCN 2027
+  name: IEEE International Conference on Machine Learning for Communication and Networking
+  url: https://icmlcn2027.ieee-icmlcn.org/
+  organizers: IEEE ComSoc
+  city: Paris
+  country: France
+  start: 2027-06-14
+  end: 2027-06-16
+  format: Not stated
+  deadline: 2026-12-30
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://icmlcn2027.ieee-icmlcn.org/
+  verified: 2026-11-21
+
+- id: hpsr-2027
+  acronym: IEEE HPSR 2027
+  name: IEEE International Conference on High Performance Switching and Routing
+  url: https://hpsr2027.ieee-hpsr.org/
+  organizers: IEEE ComSoc
+  city: Paris
+  country: France
+  start: 2027-06-15
+  end: 2027-06-18
+  format: Not stated
+  deadline: 2026-11-30
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://hpsr2027.ieee-hpsr.org/
+  verified: 2026-11-21
+
+- id: meditcom-2027
+  acronym: IEEE MeditCom 2027
+  name: IEEE International Mediterranean Conference on Communications and Networking
+  url: https://meditcom2027.ieee-meditcom.org/
+  organizers: IEEE ComSoc
+  city: Tunis
+  country: Tunisia
+  start: 2027-07-05
+  end: 2027-07-08
+  format: Not stated
+  deadline: 2027-02-26
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://meditcom2027.ieee-meditcom.org/
+  verified: 2026-11-21
+
+- id: wf-iot-2027
+  acronym: IEEE WF-IoT 2027
+  name: IEEE World Forum on Internet of Things
+  url: https://wfiot2027.iot.ieee.org/
+  organizers: IEEE ComSoc
+  city: Calgary
+  country: Canada
+  start: 2027-07-26
+  end: 2027-07-29
+  format: Not stated
+  deadline: 2027-03-01
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://wfiot2027.iot.ieee.org/
+  verified: 2026-11-21
+
+- id: pimrc-2027
+  acronym: IEEE PIMRC 2027
+  name: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+  url: https://pimrc2027.ieee-pimrc.org/
+  organizers: IEEE ComSoc
+  city: Lisbon
+  country: Portugal
+  start: 2027-09-07
+  end: 2027-09-10
+  format: Not stated
+  deadline: 2027-03-12
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://pimrc2027.ieee-pimrc.org/
+  verified: 2026-11-21
+
+- id: smartgridcomm-2027
+  acronym: IEEE SmartGridComm 2027
+  name: IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids
+  url: https://sgc2027.ieee-smartgridcomm.org/
+  organizers: IEEE ComSoc
+  city: Tokyo
+  country: Japan
+  start: 2027-10-25
+  end: 2027-10-28
+  format: Not stated
+  deadline: 2027-03-31
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://sgc2027.ieee-smartgridcomm.org/
+  verified: 2026-11-21
+
+- id: healthcom-2027
+  acronym: IEEE Healthcom 2027
+  name: IEEE International Conference on E-health Networking, Application & Services
+  url: https://healthcom2027.ieee-healthcom.org/
+  organizers: IEEE ComSoc
+  city: London
+  country: United Kingdom
+  start: 2027-11-01
+  end: 2027-11-03
+  format: Not stated
+  deadline: 2027-06-08
+  deadline_type: full paper
+  sources:
+    - https://www.comsoc.org/conferences-events/search
+    - https://healthcom2027.ieee-healthcom.org/
+  verified: 2026-11-21
+
+- id: lamc-2026
+  acronym: IEEE LAMC 2026
+  name: IEEE MTT-S Latin America Microwave Conference
+  url: http://lamc-ieee.org/
+  organizers: IEEE MTT-S
+  city: Buenos Aires
+  country: Argentina
+  start: 2026-12-09
+  end: 2026-12-11
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - http://lamc-ieee.org/
+  verified: 2026-11-21
+
+- id: arftg-108
+  acronym: ARFTG 108
+  name: 108th ARFTG Microwave Measurement Conference
+  url: https://arftg.org/108-conference/
+  organizers: IEEE MTT-S
+  city: Tampa, Florida
+  country: USA
+  start: 2027-01-18
+  end: 2027-01-21
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://arftg.org/108-conference/
+  verified: 2026-11-21
+
+- id: jcs-2027
+  acronym: IEEE JC&S 2027
+  name: IEEE International Symposium on Joint Communications & Sensing
+  url: https://jcns-symposium.org/
+  organizers: IEEE MTT-S
+  city: Munich
+  country: Germany
+  start: 2027-01-27
+  end: 2027-01-29
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://jcns-symposium.org/
+  verified: 2026-11-21
+
+- id: icmwia-2027
+  acronym: ICMWIA 2027
+  url: https://icmwia.org/
+  organizers: IEEE MTT-S
+  city: Lisbon
+  country: Portugal
+  start: 2027-02-02
+  end: 2027-02-04
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://icmwia.org/
+  verified: 2026-11-21
+
+- id: ams-2027
+  acronym: AMS 2027
+  name: Australian Microwave Symposium
+  url: https://amsymp.org/index_s.php
+  organizers: IEEE MTT-S
+  city: Perth
+  country: Australia
+  start: 2027-02-10
+  end: 2027-02-12
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://amsymp.org/index_s.php
+  verified: 2026-11-21
+
+- id: gemic-2027
+  acronym: GeMiC 2027
+  name: German Microwave Conference
+  url: https://gemic2027.org/
+  organizers: IEEE MTT-S
+  city: Hamburg
+  country: Germany
+  start: 2027-03-15
+  end: 2027-03-17
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://gemic2027.org/
+  verified: 2026-11-21
+
+- id: isstt-2027
+  acronym: ISSTT 2027
+  name: International Symposium on Space Terahertz Technology
+  url: https://www.isstt2027.org/
+  organizers: IEEE MTT-S · IEEE AP-S
+  city: Taipei
+  country: Taiwan
+  venue: Academia Sinica
+  start: 2027-03-15
+  end: 2027-03-19
+  format: Not stated
+  deadline: 2026-11-27
+  deadline_type: abstract
+  deadline_note: Notification 18 Dec 2026.
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://ieeeaps.org/conferences/upcoming-conferences
+    - https://www.isstt2027.org/
+  verified: 2026-11-21
+
+- id: icmac-2027
+  acronym: ICMAC 2027
+  url: https://icmac2027.itu.edu.pk/
+  organizers: IEEE MTT-S
+  city: Lahore
+  country: Pakistan
+  start: 2027-04-02
+  end: 2027-04-04
+  format: Not stated
+  deadline_passed: true
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://icmac2027.itu.edu.pk/
+  verified: 2026-11-21
+
+- id: wamicon-2027
+  acronym: IEEE WAMICON 2027
+  name: IEEE Wireless and Microwave Technology Conference
+  url: https://www.ieeewamicon.org/
+  organizers: IEEE MTT-S
+  city: Cocoa Beach, Florida
+  country: USA
+  start: 2027-04-19
+  end: 2027-04-20
+  format: Not stated
+  deadline_text: Not stated on the MTT-S listing
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://www.ieeewamicon.org/
+  verified: 2026-11-21
+
+- id: spi-2027
+  acronym: IEEE SPI 2027
+  name: IEEE Workshop on Signal and Power Integrity
+  url: https://spi-workshop.org/
+  organizers: IEEE MTT-S
+  city: Riva del Garda
+  country: Italy
+  start: 2027-05-16
+  end: 2027-05-19
+  format: Not stated
+  deadline: 2027-01-08
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://spi-workshop.org/
+  verified: 2026-11-21
+
+- id: imbioc-2027
+  acronym: IEEE IMBioC 2027
+  name: IEEE MTT-S International Microwave Biomedical Conference
+  url: https://www.mtt.org/mtt-s-sponsored-conferences/
+  organizers: IEEE MTT-S
+  city: Chicago, Illinois
+  country: USA
+  start: 2027-05-19
+  end: 2027-05-21
+  format: Not stated
+  deadline: 2027-01-25
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+  verified: 2026-11-21
+
+- id: rfic-2027
+  acronym: IEEE RFIC 2027
+  name: IEEE Radio Frequency Integrated Circuits Symposium
+  url: https://ims-ieee.org/rfic
+  organizers: IEEE MTT-S
+  city: San Antonio, Texas
+  country: USA
+  start: 2027-05-23
+  end: 2027-05-25
+  format: Not stated
+  deadline: 2027-01-06
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://ims-ieee.org/rfic
+  verified: 2026-11-21
+
+- id: at-rasc-2027
+  acronym: AT-RASC 2027
+  name: URSI Atlantic Radio Science Meeting
+  url: https://www.atrasc.com/home.php
+  organizers: IEEE MTT-S
+  city: Meloneras, Gran Canaria
+  country: Spain
+  start: 2027-05-23
+  end: 2027-05-28
+  format: Not stated
+  deadline: 2027-01-18
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://www.atrasc.com/home.php
+  verified: 2026-11-21
+
+- id: arftg-109
+  acronym: ARFTG 109
+  name: 109th ARFTG Microwave Measurement Conference
+  url: https://arftg.org/
+  organizers: IEEE MTT-S
+  city: San Antonio, Texas
+  country: USA
+  start: 2027-05-28
+  end: 2027-05-28
+  format: Not stated
+  deadline: 2027-02-15
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://arftg.org/
+  verified: 2026-11-21
+
+- id: antem-2027
+  acronym: ANTEM 2027
+  name: International Symposium on Antenna Technology and Applied Electromagnetics
+  url: http://www.okanagan.ieee.ca/tok-workshops/antem-2027/
+  organizers: IEEE MTT-S
+  city: Kelowna
+  country: Canada
+  dates_text: June 2027 (the MTT-S listing shows an unclear day range)
+  format: Not stated
+  deadline: 2027-03-15
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - http://www.okanagan.ieee.ca/tok-workshops/antem-2027/
+  verified: 2026-11-21
+
+- id: wptce-2027
+  acronym: IEEE WPTCE 2027
+  name: IEEE Wireless Power Technology Conference and Expo
+  url: https://www.wptce2027.org/
+  organizers: IEEE MTT-S
+  city: Chongqing
+  country: China
+  start: 2027-07-02
+  end: 2027-07-05
+  format: Not stated
+  deadline: 2027-01-15
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://www.wptce2027.org/
+  verified: 2026-11-21
+
+- id: nemo-2027
+  acronym: IEEE NEMO 2027
+  name: IEEE MTT-S International Conference on Numerical Electromagnetic and Multiphysics Modeling and Optimization
+  url: https://www.mtt.org/mtt-s-sponsored-conferences/
+  organizers: IEEE MTT-S
+  city: Turin
+  country: Italy
+  start: 2027-07-07
+  end: 2027-07-09
+  format: Not stated
+  deadline: 2027-02-21
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+  verified: 2026-11-21
+
+- id: imws-amp-2027
+  acronym: IEEE IMWS-AMP 2027
+  name: IEEE MTT-S International Microwave Workshop Series on Advanced Materials and Processes
+  url: https://www.mtt.org/mtt-s-sponsored-conferences/
+  organizers: IEEE MTT-S
+  city: Viana do Castelo
+  country: Portugal
+  start: 2027-08-10
+  end: 2027-08-12
+  format: Not stated
+  deadline: 2027-03-28
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+  verified: 2026-11-21
+
+- id: irmmw-thz-2027
+  acronym: IRMMW-THz 2027
+  name: International Conference on Infrared, Millimeter, and Terahertz Waves
+  url: https://www.mtt.org/mtt-s-sponsored-conferences/
+  organizers: IEEE MTT-S
+  city: Fukuoka
+  country: Japan
+  start: 2027-09-05
+  end: 2027-09-10
+  format: Not stated
+  deadline: 2027-04-15
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+  verified: 2026-11-21
+
+- id: cama-2027
+  acronym: IEEE CAMA 2027
+  name: IEEE Conference on Antenna Measurements and Applications
+  url: https://www.weasweek.org/
+  organizers: IEEE MTT-S
+  city: Malaga
+  country: Spain
+  start: 2027-09-09
+  end: 2027-09-10
+  format: Not stated
+  deadline: 2027-04-01
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://www.weasweek.org/
+  verified: 2026-11-21
+
+- id: eumw-2027
+  acronym: EuMW 2027
+  name: European Microwave Week
+  url: https://www.mtt.org/mtt-s-sponsored-conferences/
+  organizers: IEEE MTT-S
+  city: Milan
+  country: Italy
+  start: 2027-10-03
+  end: 2027-10-08
+  format: Not stated
+  deadline_text: Not stated on the MTT-S listing
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+  verified: 2026-11-21
+
+- id: bcicts-2027
+  acronym: IEEE BCICTS 2027
+  name: IEEE BiCMOS and Compound Semiconductor Integrated Circuits and Technology Symposium
+  url: https://bcicts.org/
+  organizers: IEEE MTT-S
+  city: San Diego, California
+  country: USA
+  start: 2027-10-16
+  end: 2027-10-20
+  format: Not stated
+  deadline: 2027-05-08
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://bcicts.org/
+  verified: 2026-11-21
+
+- id: imas-2027
+  acronym: IEEE IMAS 2027
+  name: IEEE International Microwave and Antenna Symposium
+  url: https://imas-ieee.org/
+  organizers: IEEE MTT-S
+  city: Stellenbosch
+  country: South Africa
+  start: 2027-10-19
+  end: 2027-10-21
+  format: Not stated
+  deadline: 2027-06-01
+  deadline_type: full paper
+  sources:
+    - https://www.mtt.org/mtt-s-sponsored-conferences/
+    - https://imas-ieee.org/
+  verified: 2026-11-21
+
+- id: nrsm-2027
+  acronym: NRSM 2027
+  name: USNC-URSI / IEEE AP-S National Radio Science Meeting
+  url: https://www.nrsmboulder.org/
+  organizers: IEEE AP-S · USNC-URSI
+  city: Boulder, Colorado
+  country: USA
+  venue: Limelight Hotel
+  start: 2027-01-05
+  end: 2027-01-08
+  format: Not stated
+  deadline: 2026-09-25
+  deadline_type: full paper
+  sources:
+    - https://ieeeaps.org/conferences/upcoming-conferences
+    - https://www.nrsmboulder.org/
+  verified: 2026-11-21
+
+- id: eucap-2027
+  acronym: EuCAP 2027
+  name: European Conference on Antennas and Propagation
+  url: https://www.eucap.org/
+  organizers: EurAAP · IEEE AP-S
+  city: Düsseldorf
+  country: Germany
+  venue: The Convention Centre Düsseldorf
+  start: 2027-04-18
+  end: 2027-04-23
+  format: Not stated
+  deadline: 2026-10-16
+  deadline_type: full paper
+  deadline_note: Firm deadline. Notification 15 Dec 2026.
+  sources:
+    - https://ieeeaps.org/conferences/upcoming-conferences
+    - https://www.eucap.org/
+  verified: 2026-11-21
+
+- id: wams-2027
+  acronym: IEEE WAMS 2027
+  name: IEEE Wireless Antenna and Microwave Symposium
+  url: https://wams27.sasi.ac.in/
+  organizers: IEEE AP-S
+  city: Tadepalligudem, Andhra Pradesh
+  country: India
+  venue: Sasi Institute of Technology and Engineering
+  start: 2027-06-28
+  end: 2027-07-01
+  format: Not stated
+  deadline: 2026-12-30
+  deadline_type: full paper
+  notes: Deadline from the AP-S listing only; the conference site was not readable.
+  sources:
+    - https://ieeeaps.org/conferences/upcoming-conferences
+  verified: 2026-11-21
+
+- id: lascas-2027
+  acronym: IEEE LASCAS 2027
+  name: IEEE Latin American Symposium on Circuits and Systems
+  url: https://www.ieee-lascas.org/
+  organizers: IEEE CASS
+  city: Panama City
+  country: Panama
+  start: 2027-02-23
+  end: 2027-02-26
+  format: Not stated
+  deadline: 2026-09-29
+  deadline_type: full paper
+  sources:
+    - https://ieee-cas.org/event/conference/2027-18th-ieee-latin-american-symposium-circuits-and-systems
+    - https://www.ieee-lascas.org/
+  verified: 2026-11-21
+
+- id: iscas-2027
+  acronym: IEEE ISCAS 2027
+  name: IEEE International Symposium on Circuits and Systems
+  url: https://2027.ieee-iscas.org/
+  organizers: IEEE CASS
+  city: Bordeaux
+  country: France
+  start: 2027-06-06
+  end: 2027-06-09
+  format: Not stated
+  deadline: 2026-10-26
+  deadline_type: full paper
+  deadline_note: Final papers and author registration due 10 Feb 2027.
+  sources:
+    - https://ieee-cas.org/event/conference/2027-ieee-international-symposium-circuits-and-systems
+    - https://2027.ieee-iscas.org/submission
+    - https://2027.ieee-iscas.org/
+  verified: 2026-11-21
+
+- id: newcas-2027
+  acronym: IEEE NEWCAS 2027
+  name: IEEE Interregional NEWCAS Conference
+  url: https://ieee-newcas.org/2027
+  organizers: IEEE CASS
+  city: Cork
+  country: Ireland
+  start: 2027-06-20
+  end: 2027-06-23
+  format: Not stated
+  deadline: 2027-02-01
+  deadline_type: full paper
+  deadline_note: Submission site opens 1 Dec 2026.
+  sources:
+    - https://ieee-cas.org/event/conference/2027-ieee-25th-interregional-newcas-conference
+    - https://ieee-newcas.org/2027
+  verified: 2026-11-21
+
+- id: mwscas-2027
+  acronym: IEEE MWSCAS 2027
+  name: IEEE International Midwest Symposium on Circuits and Systems
+  url: https://ieee-cas.org/event/conference/2027-ieee-international-midwest-symposium-circuits-and-systems
+  organizers: IEEE CASS
+  city: Lafayette, Louisiana
+  country: USA
+  start: 2027-08-08
+  end: 2027-08-12
+  format: Not stated
+  deadline_text: Not announced
+  sources:
+    - https://ieee-cas.org/event/conference/2027-ieee-international-midwest-symposium-circuits-and-systems
+  verified: 2026-11-21
+
+- id: aicas-2027
+  acronym: IEEE AICAS 2027
+  name: IEEE International Conference on Artificial Intelligence Circuits and Systems
+  url: https://2027.ieee-aicas.org/
+  organizers: IEEE CASS
+  city: Hangzhou
+  country: China
+  start: 2027-09-20
+  end: 2027-09-22
+  format: Not stated
+  deadline: 2027-04-13
+  deadline_type: full paper
+  deadline_note: Notification 13 Jun 2027.
+  sources:
+    - https://ieee-cas.org/event/conference/2027-ieee-9th-international-conference-artificial-intelligence-circuits-and
+    - https://2027.ieee-aicas.org/
+  verified: 2026-11-21
