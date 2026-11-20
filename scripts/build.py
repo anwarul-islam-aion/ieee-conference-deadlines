@@ -30,9 +30,9 @@ JOURNALS_MD = ROOT / "JOURNALS.md"
 README_FILE = ROOT / "README.md"
 DOCS = ROOT / "docs"
 
-REPO = "aionndc22/ieee-conference-deadlines"
+REPO = "anwarul-islam-aion/ieee-conference-deadlines"
 REPO_URL = f"https://github.com/{REPO}"
-SITE_URL = "https://aionndc22.github.io/ieee-conference-deadlines"
+SITE_URL = "https://anwarul-islam-aion.github.io/ieee-conference-deadlines"
 
 FORMATS = ("In person", "Hybrid", "Virtual", "Not stated")
 DEADLINE_TYPES = ("abstract", "full paper", "extended abstract", "paper summary", "digest")

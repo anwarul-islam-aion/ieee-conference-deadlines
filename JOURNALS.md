@@ -4,7 +4,7 @@
 
 **Every main IEEE transactions, journal and letters title — 174 journals plus 43 magazines — grouped by research track**, with its publishing model (hybrid or fully open access), the 2026 article processing charge (APC), the price after the society-member discount, and the average time to first decision where one has been published.
 
-🌐 [Searchable website](https://aionndc22.github.io/ieee-conference-deadlines/journals/) &nbsp;·&nbsp; 📥 [Excel](docs/IEEE_Journals_APC.xlsx) · [CSV](docs/journals.csv) · [JSON](docs/journals.json) · [YAML](data/journals.yml) &nbsp;·&nbsp; ✍️ [Add or fix a journal](CONTRIBUTING.md#journals) &nbsp;·&nbsp; 📅 [Conference deadlines](README.md)
+🌐 [Searchable website](https://anwarul-islam-aion.github.io/ieee-conference-deadlines/journals/) &nbsp;·&nbsp; 📥 [Excel](docs/IEEE_Journals_APC.xlsx) · [CSV](docs/journals.csv) · [JSON](docs/journals.json) · [YAML](data/journals.yml) &nbsp;·&nbsp; ✍️ [Add or fix a journal](CONTRIBUTING.md#journals) &nbsp;·&nbsp; 📅 [Conference deadlines](README.md)
 
 > Prices are IEEE's 2026 list prices, last checked **2026-10-16**. Only **15 of 174** journals have a published time to first decision — help fill in the rest!
 
@@ -335,7 +335,7 @@ Most IEEE magazine articles are invited; an optional open-access fee applies to 
 
 ## Contributing
 
-Know a journal's current APC, its open-access model, or its official time to first decision? Edit [`data/journals.yml`](https://github.com/aionndc22/ieee-conference-deadlines/edit/main/data/journals.yml) or [open an issue](https://github.com/aionndc22/ieee-conference-deadlines/issues/new/choose) with a source link. See [CONTRIBUTING.md](CONTRIBUTING.md#journals).
+Know a journal's current APC, its open-access model, or its official time to first decision? Edit [`data/journals.yml`](https://github.com/anwarul-islam-aion/ieee-conference-deadlines/edit/main/data/journals.yml) or [open an issue](https://github.com/anwarul-islam-aion/ieee-conference-deadlines/issues/new/choose) with a source link. See [CONTRIBUTING.md](CONTRIBUTING.md#journals).
 
 ## Sources and disclaimer
 

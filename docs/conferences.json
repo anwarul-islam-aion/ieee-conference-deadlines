@@ -1,27 +1,95 @@
 {
   "updated": "2026-11-20",
-  "source": "https://github.com/aionndc22/ieee-conference-deadlines",
+  "source": "https://github.com/anwarul-islam-aion/ieee-conference-deadlines",
   "conferences": [
     {
-      "id": "qpain-2027",
-      "acronym": "QPAIN 2027",
-      "url": "https://qpain.org/",
-      "city": "Chattogram",
-      "country": "Bangladesh",
-      "format": "Hybrid",
+      "id": "icipcn-2027",
+      "acronym": "ICIPCN 2027",
+      "url": "https://icipcn.com/2027/",
+      "city": "Dindigul, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
       "sources": [
-        "https://qpain.org/call-for-papers",
-        "https://ieeephotonics.org/conferences/"
+        "https://icipcn.com/2027/"
       ],
-      "verified": "2026-10-16",
-      "name": "IEEE International Conference on Quantum Photonics, Artificial Intelligence & Networking",
-      "organizers": "IEEE Photonics Society Bangladesh Chapter",
-      "start": "2027-04-08",
-      "end": "2027-04-10",
+      "verified": "2026-11-21",
+      "name": "7th International Conference on Image Processing and Capsule Networks",
+      "independent": true,
+      "venue": "G.T.N. College of Technology",
+      "start": "2027-01-21",
+      "end": "2027-01-23",
+      "deadline": "2026-11-20",
+      "deadline_type": "full paper",
+      "deadline_note": "Final deadline; acceptance 1 Dec 2026. Moved from 26–28 Dec 2026 to 21–23 Jan 2027.",
+      "notes": "IEEE Conference ID 71926 (per the conference site).",
+      "status": "open"
+    },
+    {
+      "id": "icears-2027",
+      "acronym": "ICEARS 2027",
+      "url": "https://icears.com/2027/",
+      "city": "Thoothukudi, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://icears.com/2027/"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Electronics and Renewable Systems",
+      "independent": true,
+      "venue": "St. Mother Theresa Engineering College",
+      "start": "2027-02-22",
+      "end": "2027-02-24",
+      "deadline": "2026-11-23",
+      "deadline_type": "full paper",
+      "deadline_note": "Extended from 9 Nov 2026. Acceptance 18 Dec 2026; registration 4 Jan 2027.",
+      "status": "open"
+    },
+    {
+      "id": "icns-2027",
+      "acronym": "ICNS 2027",
+      "url": "https://i-cns.org/",
+      "city": "Herndon, Virginia",
+      "country": "USA",
+      "format": "In person",
+      "sources": [
+        "https://i-cns.org/",
+        "https://wimaxforum.org/Page/Events/ICNS-2027"
+      ],
+      "verified": "2026-11-21",
+      "name": "Integrated Communications, Navigation and Surveillance Conference",
+      "organizers": "IEEE AESS · AIAA",
+      "aess": true,
+      "venue": "Westin Washington Dulles Airport",
+      "start": "2027-04-06",
+      "end": "2027-04-08",
+      "deadline": "2026-11-30",
+      "deadline_type": "abstract",
+      "deadline_note": "Abstract deadline extended to 30 Nov 2026 (per the official site).",
+      "status": "open"
+    },
+    {
+      "id": "radarconf-2027",
+      "acronym": "RadarConf'27",
+      "url": "https://radarconf2027.org/",
+      "city": "Bengaluru, Karnataka",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://radarconf2027.org/important-dates/",
+        "https://ieee-aess.org/event/conference/2027-ieee-radar-conference",
+        "https://ieee-aess.org/files/ieeeaess/2026-08/radarconf2027_cfp_11aug26-1.pdf"
+      ],
+      "verified": "2026-11-21",
+      "name": "2027 IEEE Radar Conference",
+      "organizers": "IEEE AESS",
+      "aess": true,
+      "venue": "Sheraton Grand Bengaluru Whitefield",
+      "start": "2027-05-01",
+      "end": "2027-05-06",
       "deadline": "2026-11-30",
       "deadline_type": "full paper",
-      "deadline_note": "Notification 5 Feb 2027; camera-ready and registration 20 Feb 2027.",
-      "notes": "The IEEE Photonics Society calendar lists it as hybrid; one other listing says in person.",
+      "deadline_note": "Extended from 31 Oct 2026 (hard deadline). Main conference 4–6 May; boot camp 1–2 May; workshops/tutorials 3 May. Notification 15 Jan 2027; camera-ready 15 Feb 2027.",
       "status": "open"
     },
     {
@@ -44,6 +112,28 @@
       "status": "open"
     },
     {
+      "id": "nice-2027",
+      "acronym": "NICE 2027",
+      "url": "https://niceworkshop.org/nice-2027/",
+      "city": "Brighton",
+      "country": "United Kingdom",
+      "format": "In person",
+      "sources": [
+        "https://niceworkshop.org/nice-2027/"
+      ],
+      "verified": "2026-11-21",
+      "name": "Neuro-Inspired Computational Elements Conference",
+      "organizers": "Hosted by the University of Sussex",
+      "venue": "University of Sussex",
+      "start": "2027-04-06",
+      "end": "2027-04-08",
+      "deadline": "2026-12-01",
+      "deadline_type": "full paper",
+      "deadline_note": "Extended from 11 Nov 2026. Regular papers 4–8 pages plus references. Late-breaking abstracts due 1 Feb 2027.",
+      "notes": "Proceedings are published and indexed through IEEE (authors may opt out).",
+      "status": "open"
+    },
+    {
       "id": "i2mtc-2027",
       "acronym": "I2MTC 2027",
       "url": "https://i2mtc.ieee-ims.org/2027/",
@@ -51,37 +141,17 @@
       "country": "China",
       "format": "Not stated",
       "sources": [
+        "https://i2mtc.ieee-ims.org/2027/",
         "https://ieee-ims.org/files/ieeeims/2026-06/i2mtc27-cfp_web-03.pdf"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "IEEE International Instrumentation and Measurement Technology Conference",
       "organizers": "IEEE Instrumentation & Measurement Society",
       "start": "2027-05-17",
       "end": "2027-05-20",
       "deadline": "2026-12-04",
       "deadline_type": "full paper",
-      "deadline_note": "Revised paper 12 Feb 2027; final manuscript 19 Mar 2027.",
-      "status": "open"
-    },
-    {
-      "id": "iceeict-2027",
-      "acronym": "ICEEICT 2027",
-      "url": "https://iceeict.mist.ac.bd/",
-      "city": "Dhaka",
-      "country": "Bangladesh",
-      "format": "Hybrid",
-      "sources": [
-        "https://iceeict.mist.ac.bd/"
-      ],
-      "verified": "2026-10-16",
-      "name": "7th International Conference on Electrical Engineering and Information & Communication Technology",
-      "organizers": "Military Institute of Science and Technology (MIST)",
-      "venue": "MIST",
-      "start": "2027-01-28",
-      "end": "2027-01-30",
-      "deadline": "2026-12-05",
-      "deadline_type": "full paper",
-      "deadline_note": "Extended from 25 Oct 2026 (final extension per the official site).",
+      "deadline_note": "First-round notification 22 Jan 2027; revised paper 12 Feb 2027; final manuscript 19 Mar 2027.",
       "status": "open"
     },
     {
@@ -95,14 +165,15 @@
         "https://ias-am.ieee.org/2027/call-for-papers/",
         "https://ias-am.ieee.org/2027/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "IEEE Industry Applications Society Annual Meeting",
       "organizers": "IEEE Industry Applications Society",
       "start": "2027-06-27",
       "end": "2027-07-01",
       "deadline": "2026-12-07",
       "deadline_type": "digest",
-      "deadline_note": "Digest deadline from the IAS 2027 call-for-papers page; another IAS page still shows the call as \"coming soon\".",
+      "deadline_note": "Notification 15 Feb 2027; final paper with IEEE copyright 15 Apr 2027.",
+      "notes": "Accepted papers must be presented in person.",
       "status": "open"
     },
     {
@@ -115,7 +186,7 @@
       "sources": [
         "https://bvicam.ac.in/indiacom/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "International Conference on Computing for Sustainable Global Development",
       "organizers": "Bharati Vidyapeeth's Institute of Computer Applications and Management (BVICAM)",
       "venue": "BVICAM, Bharati Vidyapeeth",
@@ -123,7 +194,7 @@
       "end": "2027-04-09",
       "deadline": "2026-12-07",
       "deadline_type": "full paper",
-      "deadline_note": "Final version of accepted papers due Feb 2027.",
+      "deadline_note": "Notification 8 Feb 2027; final version and early-bird registration 22 Feb 2027.",
       "notes": "IEEE Conference ID 74162; papers forwarded to IEEE Xplore subject to IEEE review.",
       "status": "open"
     },
@@ -168,6 +239,74 @@
       "deadline": "2026-12-15",
       "deadline_type": "full paper",
       "notes": "The official site shows two date ranges (15–17 Jun and 30 Jun – 3 Jul 2027).",
+      "status": "open"
+    },
+    {
+      "id": "icara-2027",
+      "acronym": "ICARA 2027",
+      "url": "https://icara.us/",
+      "city": "Paris",
+      "country": "France",
+      "format": "Not stated",
+      "sources": [
+        "https://icara.us/",
+        "https://icara.us/registration.html",
+        "https://icara.us/2026.html"
+      ],
+      "verified": "2026-11-21",
+      "name": "13th International Conference on Automation, Robotics and Applications",
+      "organizers": "IEEE · IEEE RAS (co-sponsors)",
+      "independent": true,
+      "start": "2027-02-25",
+      "end": "2027-02-27",
+      "deadline": "2026-12-20",
+      "deadline_type": "full paper",
+      "deadline_note": "Notification 15 Jan 2027; camera-ready and registration 30 Jan 2027. 6 pages in the fee, US$70 per extra page.",
+      "notes": "The 2026 edition (Istanbul) ran online sessions; the 2027 site does not mention online presentation yet.",
+      "status": "open"
+    },
+    {
+      "id": "qpain-2027",
+      "acronym": "QPAIN 2027",
+      "url": "https://qpain.org/",
+      "city": "Chattogram",
+      "country": "Bangladesh",
+      "format": "Hybrid",
+      "sources": [
+        "https://qpain.org/call-for-papers",
+        "https://ieeephotonics.org/conferences/"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE International Conference on Quantum Photonics, Artificial Intelligence & Networking",
+      "organizers": "IEEE Photonics Society Bangladesh Chapter",
+      "start": "2027-04-08",
+      "end": "2027-04-10",
+      "deadline": "2026-12-20",
+      "deadline_type": "full paper",
+      "deadline_note": "Extended from 30 Nov 2026. Notification 5 Feb 2027; camera-ready and registration 20 Feb 2027.",
+      "notes": "The IEEE Photonics Society calendar lists it as hybrid; one other listing says in person.",
+      "status": "open"
+    },
+    {
+      "id": "iccar-2027",
+      "acronym": "ICCAR 2027",
+      "url": "https://www.iccar.org/",
+      "city": "Nanchang, Jiangxi",
+      "country": "China",
+      "format": "Not stated",
+      "sources": [
+        "https://www.iccar.org/",
+        "https://easychair.org/cfp/ICCAR2027"
+      ],
+      "verified": "2026-11-21",
+      "name": "13th International Conference on Control, Automation and Robotics",
+      "independent": true,
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "deadline": "2026-12-25",
+      "deadline_type": "full paper",
+      "deadline_note": "Notification 25 Jan 2027; registration 15 Feb 2027.",
+      "notes": "The 2024–2026 proceedings are in IEEE Xplore (per the conference site).",
       "status": "open"
     },
     {
@@ -233,27 +372,6 @@
       "status": "open"
     },
     {
-      "id": "igarss-2027",
-      "acronym": "IGARSS 2027",
-      "url": "https://www.grss-ieee.org/event/2027-ieee-international-geoscience-and-remote-sensing-symposium/",
-      "city": "Reykjavík",
-      "country": "Iceland",
-      "format": "Not stated",
-      "sources": [
-        "https://www.grss-ieee.org/event/2027-ieee-international-geoscience-and-remote-sensing-symposium/"
-      ],
-      "verified": "2026-10-16",
-      "name": "IEEE International Geoscience and Remote Sensing Symposium",
-      "organizers": "IEEE GRSS",
-      "venue": "Harpa Concert Hall & Conference Centre",
-      "start": "2027-07-11",
-      "end": "2027-07-16",
-      "deadline": "2027-01-10",
-      "deadline_type": "full paper",
-      "deadline_note": "Submission portal opens 10 Nov 2026. One listing says 11 Jan.",
-      "status": "open"
-    },
-    {
       "id": "aps-ursi-2027",
       "acronym": "IEEE AP-S/URSI 2027",
       "url": "https://2027.apsursi.org/",
@@ -275,6 +393,27 @@
       "status": "open"
     },
     {
+      "id": "igarss-2027",
+      "acronym": "IGARSS 2027",
+      "url": "https://www.grss-ieee.org/event/2027-ieee-international-geoscience-and-remote-sensing-symposium/",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "format": "Not stated",
+      "sources": [
+        "https://www.grss-ieee.org/event/2027-ieee-international-geoscience-and-remote-sensing-symposium/"
+      ],
+      "verified": "2026-10-16",
+      "name": "IEEE International Geoscience and Remote Sensing Symposium",
+      "organizers": "IEEE GRSS",
+      "venue": "Harpa Concert Hall & Conference Centre",
+      "start": "2027-07-11",
+      "end": "2027-07-16",
+      "deadline": "2027-01-11",
+      "deadline_type": "full paper",
+      "deadline_note": "Full papers (4 pages) needed for IEEE Xplore; portal opened 10 Nov 2026. One listing says 10 Jan, so check the portal.",
+      "status": "open"
+    },
+    {
       "id": "ccece-2027",
       "acronym": "IEEE CCECE 2027",
       "url": "https://attend.ieee.org/ccece-2027",
@@ -284,13 +423,36 @@
       "sources": [
         "https://attend.ieee.org/ccece-2027/authors/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "40th IEEE Canadian Conference on Electrical and Computer Engineering",
       "organizers": "IEEE Canada",
       "start": "2027-05-24",
       "end": "2027-05-27",
       "deadline": "2027-01-25",
       "deadline_type": "full paper",
+      "deadline_note": "Up to 8 pages. Notification 25 Mar 2027. Two-page posters due 1 Apr 2027.",
+      "status": "open"
+    },
+    {
+      "id": "ijcnn-2027",
+      "acronym": "IJCNN 2027",
+      "url": "https://ijcnn.org/2027/",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "format": "Not stated",
+      "sources": [
+        "https://ijcnn.org/2027/authors/call-for-papers",
+        "https://confcats-siteplex.s3.amazonaws.com/ijcnn/files/ijcnn27-cfp_web-16.pdf"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Joint Conference on Neural Networks",
+      "organizers": "IEEE Computational Intelligence Society · INNS",
+      "venue": "Cape Town International Convention Centre",
+      "start": "2027-06-14",
+      "end": "2027-06-18",
+      "deadline": "2027-01-31",
+      "deadline_type": "full paper",
+      "deadline_note": "Submissions open 15 Dec 2026. Notification 15 Mar 2027; camera-ready 12 Apr 2027. Up to 6 pages.",
       "status": "open"
     },
     {
@@ -303,7 +465,7 @@
       "sources": [
         "https://www.metroaerospace.org/important-dates"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "IEEE International Workshop on Metrology for AeroSpace",
       "organizers": "IEEE AESS · IEEE Instrumentation & Measurement Society",
       "aess": true,
@@ -311,7 +473,7 @@
       "end": "2027-07-02",
       "deadline": "2027-01-31",
       "deadline_type": "extended abstract",
-      "deadline_note": "Extended abstract of 4–5 pages. Final paper 30 Apr or 2 May 2027 (the site shows both).",
+      "deadline_note": "Extended abstract of 4–5 pages. Special-session proposals due 1 Dec 2026. Notification 4 Apr 2027; final paper 2 May 2027.",
       "status": "open"
     },
     {
@@ -360,6 +522,28 @@
       "status": "open"
     },
     {
+      "id": "ccta-2027",
+      "acronym": "IEEE CCTA 2027",
+      "url": "https://ccta2027.ieeecss.org/",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "format": "Not stated",
+      "sources": [
+        "https://ccta2027.ieeecss.org/",
+        "https://confcats-siteplex.s3.amazonaws.com/ccta27/files/ccta27-cfp_web-07.pdf"
+      ],
+      "verified": "2026-11-21",
+      "name": "IEEE Conference on Control Technology and Applications",
+      "organizers": "IEEE Control Systems Society",
+      "venue": "International Conference Center Hiroshima",
+      "start": "2027-08-23",
+      "end": "2027-08-25",
+      "deadline": "2027-02-07",
+      "deadline_type": "full paper",
+      "deadline_note": "Up to 8 pages. Notification 15 May 2027; final paper 23 Jun 2027.",
+      "status": "open"
+    },
+    {
       "id": "conecct-2027",
       "acronym": "IEEE CONECCT 2027",
       "url": "https://ieee-conecct.org/",
@@ -380,9 +564,30 @@
       "status": "open"
     },
     {
+      "id": "icdret-2027",
+      "acronym": "ICDRET 2027",
+      "url": "https://icdret.uiu.ac.bd/",
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "format": "Not stated",
+      "sources": [
+        "https://icdret.uiu.ac.bd/call-for-papers"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Developments in Renewable Energy Technology",
+      "organizers": "United International University (UIU) · IEEE technical co-sponsorship applied",
+      "venue": "United International University",
+      "start": "2027-06-26",
+      "end": "2027-06-28",
+      "deadline": "2027-03-01",
+      "deadline_type": "full paper",
+      "deadline_note": "Notification 1 Jun 2027. IEEE two-column format.",
+      "status": "open"
+    },
+    {
       "id": "iros-2027",
       "acronym": "IEEE/RSJ IROS 2027",
-      "url": "https://www.ieee-ras.org/events/category/important-dates/",
+      "url": "https://2027.ieee-iros.org/",
       "city": "Florence",
       "country": "Italy",
       "format": "Not stated",
@@ -394,11 +599,32 @@
       "name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
       "organizers": "IEEE RAS · RSJ",
       "venue": "Fortezza da Basso",
-      "start": "2027-09-26",
+      "start": "2027-09-27",
       "end": "2027-10-01",
       "deadline": "2027-03-01",
       "deadline_type": "full paper",
       "deadline_note": "23:59 AoE.",
+      "status": "open"
+    },
+    {
+      "id": "cdc-2027",
+      "acronym": "IEEE CDC 2027",
+      "url": "https://cdc2027.ieeecss.org/",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "format": "Not stated",
+      "sources": [
+        "https://cdc2027.ieeecss.org/"
+      ],
+      "verified": "2026-11-21",
+      "name": "66th IEEE Conference on Decision and Control",
+      "organizers": "IEEE Control Systems Society",
+      "venue": "Lisbon Congress Center",
+      "start": "2027-12-14",
+      "end": "2027-12-17",
+      "deadline": "2027-03-31",
+      "deadline_type": "full paper",
+      "deadline_note": "Joint L-CSS + CDC submissions due 17 Mar 2027. Submission site opens 8 Jan 2027; notification 15 Jul 2027.",
       "status": "open"
     },
     {
@@ -419,57 +645,17 @@
       "status": "tba"
     },
     {
-      "id": "icns-2027",
-      "acronym": "ICNS 2027",
-      "url": "https://i-cns.org/",
-      "city": "Herndon, Virginia",
-      "country": "USA",
-      "format": "In person",
-      "sources": [
-        "https://i-cns.org/",
-        "https://wimaxforum.org/Page/Events/ICNS-2027"
-      ],
-      "verified": "2026-10-16",
-      "name": "Integrated Communications, Navigation and Surveillance Conference",
-      "organizers": "IEEE AESS · AIAA",
-      "aess": true,
-      "venue": "Westin Washington Dulles Airport",
-      "start": "2027-04-06",
-      "end": "2027-04-08",
-      "deadline_text": "Not announced (usually mid-Dec to mid-Jan)",
-      "status": "tba"
-    },
-    {
-      "id": "iv-2027",
-      "acronym": "IEEE IV 2027",
-      "url": "https://ieee-itss.org/conf/iv/",
-      "city": "Perth, Western Australia",
-      "country": "Australia",
-      "format": "Not stated",
-      "sources": [
-        "https://ieee-itss.org/events/tag/iv/",
-        "https://www.beri.net/events/ieee-iv-2027"
-      ],
-      "verified": "2026-10-16",
-      "name": "38th IEEE Intelligent Vehicles Symposium",
-      "organizers": "IEEE ITS Society",
-      "start": "2027-06-15",
-      "end": "2027-06-18",
-      "deadline_text": "Not announced (2026 edition closed in early Oct)",
-      "status": "tba"
-    },
-    {
       "id": "fusion-2027",
       "acronym": "FUSION 2027",
-      "url": "https://isif.org/post/announcement/fusion-2027",
+      "url": "https://www.fusion2027.org/",
       "city": "Buffalo, New York",
       "country": "USA",
       "format": "Not stated",
       "sources": [
-        "https://isif.org/post/announcement/fusion-2027",
-        "https://www.buffalo.edu/cimif/fusion2027.html"
+        "https://www.fusion2027.org/",
+        "https://isif.org/post/announcement/fusion-2027"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "30th International Conference on Information Fusion",
       "organizers": "ISIF · IEEE AESS (technical co-sponsor)",
       "aess": true,
@@ -479,22 +665,22 @@
       "status": "tba"
     },
     {
-      "id": "acc-2027",
-      "acronym": "ACC 2027",
-      "url": "https://acc2027.a2c2.org/",
-      "city": "Philadelphia, Pennsylvania",
-      "country": "USA",
+      "id": "dasc-2027",
+      "acronym": "DASC 2027",
+      "url": "https://dasconline.org/",
+      "city": "Belfast, Northern Ireland",
+      "country": "United Kingdom",
       "format": "Not stated",
       "sources": [
-        "https://acc2027.a2c2.org/"
+        "https://dasconline.org/2026"
       ],
-      "verified": "2026-10-16",
-      "name": "American Control Conference",
-      "organizers": "AACC · IEEE Control Systems Society",
-      "venue": "Philadelphia Marriott Downtown",
-      "start": "2027-07-07",
-      "end": "2027-07-09",
-      "deadline_text": "Not confirmed — check the official site",
+      "verified": "2026-11-21",
+      "name": "AIAA/IEEE Digital Avionics Systems Conference",
+      "organizers": "AIAA · IEEE AESS",
+      "aess": true,
+      "start": "2027-09-12",
+      "end": "2027-09-16",
+      "deadline_text": "Not announced (abstracts usually due around February)",
       "status": "tba"
     },
     {
@@ -606,7 +792,7 @@
       "sources": [
         "https://icece.org.bd/2026/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "14th International Conference on Electrical and Computer Engineering",
       "organizers": "Dept. of EEE, BUET",
       "venue": "ECE Building, BUET",
@@ -614,7 +800,7 @@
       "end": "2026-12-12",
       "deadline": "2026-09-15",
       "deadline_type": "full paper",
-      "deadline_note": "Camera-ready due 10 Nov 2026.",
+      "deadline_note": "Camera-ready and registration due 22 Nov 2026.",
       "status": "closed"
     },
     {
@@ -669,7 +855,7 @@
       "sources": [
         "https://iccit.org.bd/2026/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "29th International Conference on Computer and Information Technology",
       "organizers": "IEEE Bangladesh Section",
       "venue": "Long Beach Hotel",
@@ -677,7 +863,7 @@
       "end": "2026-12-20",
       "deadline": "2026-09-20",
       "deadline_type": "full paper",
-      "deadline_note": "Official pages show an extension to 31 Aug or 20 Sep 2026.",
+      "deadline_note": "Notifications sent 18 Nov 2026; camera-ready and registration extended to 25 Nov 2026.",
       "status": "closed"
     },
     {
@@ -699,24 +885,6 @@
       "deadline": "2026-08-31",
       "deadline_type": "full paper",
       "deadline_note": "Acceptance 2 Nov 2026; camera-ready 16 Nov 2026.",
-      "status": "closed"
-    },
-    {
-      "id": "icipcn-2027",
-      "acronym": "ICIPCN 2027",
-      "url": "https://icipcn.com/2027/",
-      "city": "Dindigul, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://cis.ieee.org/conferences/conference-calendar"
-      ],
-      "verified": "2026-10-15",
-      "independent": true,
-      "start": "2026-12-26",
-      "end": "2026-12-28",
-      "deadline": "2026-10-29",
-      "deadline_type": "full paper",
       "status": "closed"
     },
     {
@@ -803,21 +971,65 @@
       "status": "closed"
     },
     {
+      "id": "ecce-2027",
+      "acronym": "ECCE 2027",
+      "url": "https://ecce2027.cuet.ac.bd/",
+      "city": "Chattogram",
+      "country": "Bangladesh",
+      "format": "Not stated",
+      "sources": [
+        "https://ecce2027.cuet.ac.bd/download/cfpF.pdf"
+      ],
+      "verified": "2026-11-21",
+      "name": "International Conference on Electrical, Computer and Communication Engineering",
+      "organizers": "Chittagong University of Engineering & Technology (CUET)",
+      "venue": "CUET",
+      "start": "2027-01-21",
+      "end": "2027-01-23",
+      "deadline_passed": true,
+      "notes": "Accepted papers are submitted to IEEE Xplore, subject to IEEE's scope and quality requirements.",
+      "status": "closed"
+    },
+    {
+      "id": "iceeict-2027",
+      "acronym": "ICEEICT 2027",
+      "url": "https://iceeict.mist.ac.bd/",
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "format": "Hybrid",
+      "sources": [
+        "https://iceeict.mist.ac.bd/"
+      ],
+      "verified": "2026-11-21",
+      "name": "7th International Conference on Electrical Engineering and Information & Communication Technology",
+      "organizers": "Military Institute of Science and Technology (MIST)",
+      "venue": "MIST",
+      "start": "2027-01-28",
+      "end": "2027-01-30",
+      "deadline": "2026-11-10",
+      "deadline_type": "full paper",
+      "deadline_note": "Hard deadline, \"strictly final\" per the official site. Notification 20 Dec 2026; camera-ready and registration 27 Dec 2026.",
+      "status": "closed"
+    },
+    {
       "id": "icaaic-2027",
       "acronym": "ICAAIC 2027",
-      "url": "https://cis.ieee.org/conferences/conference-calendar",
+      "url": "https://icaaic.com/2027/",
       "city": "Salem, Tamil Nadu",
       "country": "India",
       "format": "Not stated",
       "sources": [
+        "https://icaaic.com/2027/",
         "https://cis.ieee.org/conferences/conference-calendar"
       ],
-      "verified": "2026-10-15",
+      "verified": "2026-11-21",
+      "name": "5th International Conference on Applied Artificial Intelligence and Computing",
       "independent": true,
-      "start": "2027-01-21",
-      "end": "2027-01-23",
+      "start": "2027-02-01",
+      "end": "2027-02-03",
       "deadline": "2026-11-09",
       "deadline_type": "full paper",
+      "deadline_note": "The official site now lists 1–3 Feb 2027 (earlier listings said 21–23 Jan).",
       "status": "closed"
     },
     {
@@ -839,27 +1051,6 @@
       "deadline": "2026-10-16",
       "deadline_type": "full paper",
       "deadline_note": "Notification 24 Dec 2026; camera-ready 8 Jan 2027. 6 pages, IEEE format, double-blind.",
-      "status": "closed"
-    },
-    {
-      "id": "icears-2027",
-      "acronym": "ICEARS 2027",
-      "url": "https://icears.com/2027/",
-      "city": "Thoothukudi, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://icears.com/2027/",
-        "https://www.myhuiban.com/conference/5809"
-      ],
-      "verified": "2026-10-16",
-      "name": "International Conference on Electronics and Renewable Systems",
-      "independent": true,
-      "venue": "St. Mother Theresa Engineering College",
-      "start": "2027-02-22",
-      "end": "2027-02-24",
-      "deadline": "2026-11-09",
-      "deadline_type": "full paper",
       "status": "closed"
     },
     {
@@ -893,17 +1084,17 @@
       "country": "Panama",
       "format": "In person",
       "sources": [
-        "https://wcnc2027.ieee-wcnc.org/",
-        "https://www.comsoc.org/conferences-events/ieee-wireless-communications-and-networking-conference-2027"
+        "https://wcnc2027.ieee-wcnc.org/authors",
+        "https://wcnc2027.ieee-wcnc.org/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "IEEE Wireless Communications and Networking Conference",
       "organizers": "IEEE ComSoc",
       "start": "2027-04-05",
       "end": "2027-04-08",
-      "deadline": "2026-10-26",
+      "deadline": "2026-11-09",
       "deadline_type": "full paper",
-      "deadline_note": "Official site lists 26 Oct as the final deadline; ComSoc posts show 15 Sep and 5 Oct.",
+      "deadline_note": "Final firm deadline per the official site (extended from 26 Oct). Notification 15 Jan 2027. Workshop papers due 30 Nov 2026.",
       "status": "closed"
     },
     {
@@ -929,30 +1120,6 @@
       "deadline_type": "abstract",
       "deadline_note": "Full manuscript due 1 Feb 2027 (an ION author page says 3 Feb, hard deadline).",
       "notes": "Presentations must be given in person.",
-      "status": "closed"
-    },
-    {
-      "id": "radarconf-2027",
-      "acronym": "RadarConf'27",
-      "url": "https://radarconf2027.org/",
-      "city": "Bengaluru, Karnataka",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://ieee-aess.org/event/conference/2027-ieee-radar-conference",
-        "https://ieee-aess.org/files/ieeeaess/2026-08/radarconf2027_cfp_11aug26-1.pdf",
-        "https://radarconf2027.org/call-for-special-sessions/"
-      ],
-      "verified": "2026-10-15",
-      "name": "2027 IEEE Radar Conference",
-      "organizers": "IEEE AESS",
-      "aess": true,
-      "venue": "Sheraton Grand Bengaluru Whitefield",
-      "start": "2027-05-01",
-      "end": "2027-05-06",
-      "deadline": "2026-10-31",
-      "deadline_type": "full paper",
-      "deadline_note": "Main conference 4–6 May; boot camp 1–2 May; workshops/tutorials 3 May. Camera-ready 15 Feb 2027.",
       "status": "closed"
     },
     {
@@ -984,17 +1151,36 @@
       "format": "In person",
       "sources": [
         "https://icc2027.ieee-icc.org/authors",
-        "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
-        "https://www.comsoc.org/conferences-events/ieee-international-conference-communications-2027"
+        "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "IEEE International Conference on Communications",
       "organizers": "IEEE ComSoc",
       "start": "2027-05-30",
       "end": "2027-06-03",
-      "deadline": "2026-10-16",
+      "deadline": "2026-10-30",
       "deadline_type": "full paper",
-      "deadline_note": "Official site says 16 Oct; ComSoc's page and aggregators say 2 Oct. Notification 15 Jan 2027.",
+      "deadline_note": "Final firm deadline per the official site (ComSoc's page still shows 2 Oct). Notification 15 Jan 2027; camera-ready 19 Feb 2027. Workshop papers due 17 Jan 2027.",
+      "status": "closed"
+    },
+    {
+      "id": "iv-2027",
+      "acronym": "IEEE IV 2027",
+      "url": "https://ieee-iv.org/2027/",
+      "city": "Perth, Western Australia",
+      "country": "Australia",
+      "format": "Not stated",
+      "sources": [
+        "https://ieee-iv.org/2027/"
+      ],
+      "verified": "2026-11-21",
+      "name": "38th IEEE Intelligent Vehicles Symposium",
+      "organizers": "IEEE ITS Society",
+      "start": "2027-06-15",
+      "end": "2027-06-18",
+      "deadline": "2026-11-15",
+      "deadline_type": "full paper",
+      "deadline_note": "Notification 15 Jan 2027; camera-ready 1 Feb 2027. Workshop papers due 1 Feb 2027 (not in IEEE Xplore unless sent as full papers).",
       "status": "closed"
     },
     {
@@ -1007,14 +1193,36 @@
       "sources": [
         "https://events.vtsociety.org/vtc2027-spring/"
       ],
-      "verified": "2026-10-16",
+      "verified": "2026-11-21",
       "name": "2027 IEEE 105th Vehicular Technology Conference",
       "organizers": "IEEE Vehicular Technology Society",
       "start": "2027-06-20",
       "end": "2027-06-23",
       "deadline": "2026-10-14",
       "deadline_type": "full paper",
-      "deadline_note": "Final extension; earlier pages show 30 Sep 2026.",
+      "deadline_note": "Final extension; earlier pages show 30 Sep 2026. Workshop papers due 20 Dec 2026; Recent Results due 1 Feb 2027.",
+      "status": "closed"
+    },
+    {
+      "id": "acc-2027",
+      "acronym": "ACC 2027",
+      "url": "https://acc2027.a2c2.org/",
+      "city": "Philadelphia, Pennsylvania",
+      "country": "USA",
+      "format": "Not stated",
+      "sources": [
+        "https://acc2027.a2c2.org/wp-content/uploads/2025/10/ACC_2027_CFP-2025-10-17.pdf",
+        "https://acc2027.a2c2.org/"
+      ],
+      "verified": "2026-11-21",
+      "name": "American Control Conference",
+      "organizers": "AACC · IEEE Control Systems Society",
+      "venue": "Philadelphia Marriott Downtown",
+      "start": "2027-07-07",
+      "end": "2027-07-09",
+      "deadline": "2026-09-25",
+      "deadline_type": "full paper",
+      "deadline_note": "L-CSS route closed 23 Sep 2026. Notification 22 Jan 2027; final papers 12 Mar 2027. 8-page limit.",
       "status": "closed"
     },
     {

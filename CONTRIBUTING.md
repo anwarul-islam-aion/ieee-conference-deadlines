@@ -6,7 +6,7 @@ You don't need to know how to code. There are two ways to contribute.
 
 ## Option 1 — Open an issue (easiest)
 
-[Open a new issue](https://github.com/aionndc22/ieee-conference-deadlines/issues/new/choose) and pick **Add a conference** or **Update a conference**. Fill in what you know and paste the official link — a maintainer will add it.
+[Open a new issue](https://github.com/anwarul-islam-aion/ieee-conference-deadlines/issues/new/choose) and pick **Add a conference** or **Update a conference**. Fill in what you know and paste the official link — a maintainer will add it.
 
 ## Option 2 — Edit the data file (pull request)
 
@@ -95,7 +95,7 @@ Open `docs/index.html` in a browser to see the website.
 
 ## Journals
 
-The IEEE journal list — open-access model, APC and time to first decision — lives in **[`data/journals.yml`](data/journals.yml)**. It generates [`JOURNALS.md`](JOURNALS.md), the [journals web page](https://aionndc22.github.io/ieee-conference-deadlines/journals/), `docs/journals.json`, `docs/journals.csv` and the Excel file `docs/IEEE_Journals_APC.xlsx`.
+The IEEE journal list — open-access model, APC and time to first decision — lives in **[`data/journals.yml`](data/journals.yml)**. It generates [`JOURNALS.md`](JOURNALS.md), the [journals web page](https://anwarul-islam-aion.github.io/ieee-conference-deadlines/journals/), `docs/journals.json`, `docs/journals.csv` and the Excel file `docs/IEEE_Journals_APC.xlsx`.
 
 The most valuable contributions are:
 
