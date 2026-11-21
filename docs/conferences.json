@@ -1,29 +1,7 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "source": "https://github.com/anwarul-islam-aion/ieee-conference-journal-tracker",
   "conferences": [
-    {
-      "id": "icipcn-2027",
-      "acronym": "ICIPCN 2027",
-      "url": "https://icipcn.com/2027/",
-      "city": "Dindigul, Tamil Nadu",
-      "country": "India",
-      "format": "Not stated",
-      "sources": [
-        "https://icipcn.com/2027/"
-      ],
-      "verified": "2026-11-21",
-      "name": "7th International Conference on Image Processing and Capsule Networks",
-      "independent": true,
-      "venue": "G.T.N. College of Technology",
-      "start": "2027-01-21",
-      "end": "2027-01-23",
-      "deadline": "2026-11-20",
-      "deadline_type": "full paper",
-      "deadline_note": "Final deadline; acceptance 1 Dec 2026. Moved from 26–28 Dec 2026 to 21–23 Jan 2027.",
-      "notes": "IEEE Conference ID 71926 (per the conference site).",
-      "status": "open"
-    },
     {
       "id": "icears-2027",
       "acronym": "ICEARS 2027",
@@ -2308,6 +2286,28 @@
       "end": "2027-01-23",
       "deadline_passed": true,
       "notes": "Accepted papers are submitted to IEEE Xplore, subject to IEEE's scope and quality requirements.",
+      "status": "closed"
+    },
+    {
+      "id": "icipcn-2027",
+      "acronym": "ICIPCN 2027",
+      "url": "https://icipcn.com/2027/",
+      "city": "Dindigul, Tamil Nadu",
+      "country": "India",
+      "format": "Not stated",
+      "sources": [
+        "https://icipcn.com/2027/"
+      ],
+      "verified": "2026-11-21",
+      "name": "7th International Conference on Image Processing and Capsule Networks",
+      "independent": true,
+      "venue": "G.T.N. College of Technology",
+      "start": "2027-01-21",
+      "end": "2027-01-23",
+      "deadline": "2026-11-20",
+      "deadline_type": "full paper",
+      "deadline_note": "Final deadline; acceptance 1 Dec 2026. Moved from 26–28 Dec 2026 to 21–23 Jan 2027.",
+      "notes": "IEEE Conference ID 71926 (per the conference site).",
       "status": "closed"
     },
     {
